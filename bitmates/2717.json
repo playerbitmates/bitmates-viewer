@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/e919fd37724684e89711.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmYq7b2rmjgYKJnsjRZ3Qr98k9Fg69oT4xfSX4rdcp1MDJ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7579892135988278",
+  "name": "BitMate #2717",
+  "id": 2717,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Necktie",
+      "rare": "2,61%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Dull"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 135
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 28
+    },
+    {
+      "trait_type": "Agility",
+      "value": 94
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 17
+    },
+    {
+      "trait_type": "Strength",
+      "value": 28
+    },
+    {
+      "trait_type": "Luck",
+      "value": 10
+    }
+  ],
+  "totalStats": 177
+}

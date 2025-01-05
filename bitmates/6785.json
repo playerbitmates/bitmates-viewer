@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/435b648a0290467ebbc4.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmUpDYHsVqcWap4rhYcLeavtdhzBoF9ojxMtxe9eNm4HGZ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4271101725365791",
+  "name": "BitMate #6785",
+  "id": 6785,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Gorilla",
+      "rare": "4,07%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Farmer",
+      "rare": "5,00%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Charmed"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 86
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 42
+    },
+    {
+      "trait_type": "Agility",
+      "value": 32
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 57
+    },
+    {
+      "trait_type": "Strength",
+      "value": 28
+    },
+    {
+      "trait_type": "Luck",
+      "value": 83
+    }
+  ],
+  "totalStats": 242
+}

@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/78addeed0ada6d977ee9.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    },
+    {
+      "region": "Primus",
+      "bit_qty": 192,
+      "rarity": "1.92%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmbWmUUDrDYHDqRjaUqGTfpgB7f3oNjFhZi7dDGaN232gT",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5412102949550091",
+  "name": "BitMate #727",
+  "id": 727,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Wreath",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 89
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 36
+    },
+    {
+      "trait_type": "Agility",
+      "value": 56
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 59
+    },
+    {
+      "trait_type": "Strength",
+      "value": 70
+    },
+    {
+      "trait_type": "Luck",
+      "value": 27
+    }
+  ],
+  "totalStats": 248
+}

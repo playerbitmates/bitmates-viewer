@@ -1,0 +1,97 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/6269db522449904194c0.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Braveheart Barraks",
+      "bit_qty": 76,
+      "rarity": "0.76%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmV57F57gs4yamqbyqCPrTQg4hLyXpUnbhNyE1Qxs81ek4",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8044153415014310",
+  "name": "BitMate #4351",
+  "id": 4351,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Mermonkey",
+      "rare": "2,97%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Firesuit",
+      "rare": "2,31%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Chain Necklace",
+      "rare": "1,23%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Medical Mask",
+      "rare": "1,53%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smooth"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 377
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 7
+    },
+    {
+      "trait_type": "Agility",
+      "value": 63
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 30
+    },
+    {
+      "trait_type": "Strength",
+      "value": 25
+    },
+    {
+      "trait_type": "Luck",
+      "value": 58
+    }
+  ],
+  "totalStats": 183
+}

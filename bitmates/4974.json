@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/3e724adfd0ad338a7b57.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "The Golden Grave",
+      "bit_qty": 53,
+      "rarity": "0.53%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmWFJ6wg62GsqNXuVuLnbsv7XraaBvaZbV45r8qB25hXJk",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8287409725903143",
+  "name": "BitMate #4974",
+  "id": 4974,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap",
+      "rare": "5,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 47
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 66
+    },
+    {
+      "trait_type": "Agility",
+      "value": 61
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 55
+    },
+    {
+      "trait_type": "Strength",
+      "value": 51
+    },
+    {
+      "trait_type": "Luck",
+      "value": 42
+    }
+  ],
+  "totalStats": 275
+}

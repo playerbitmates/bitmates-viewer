@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/07e4c567ceae910c71f8.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Solaire",
+      "bit_qty": 454,
+      "rarity": "4.54%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://Qmct6ivzBhq9uomU9fHyq84LS3EFESNB4fywhUuSKrQf1t",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2196042212186804",
+  "name": "BitMate #8703",
+  "id": 8703,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smooth"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 57
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 3
+    },
+    {
+      "trait_type": "Agility",
+      "value": 31
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 57
+    },
+    {
+      "trait_type": "Strength",
+      "value": 56
+    },
+    {
+      "trait_type": "Luck",
+      "value": 54
+    }
+  ],
+  "totalStats": 201
+}

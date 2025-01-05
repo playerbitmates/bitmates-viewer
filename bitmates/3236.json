@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/0425166cd218c633999d.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Interloper's Cavern",
+      "bit_qty": 296,
+      "rarity": "2.96%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmScCoJncLCTuEqWz9MKd6aHeXMbXxX5UhreEvHqHGJA3S",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8971182193673373",
+  "name": "BitMate #3236",
+  "id": 3236,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 136
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 55
+    },
+    {
+      "trait_type": "Agility",
+      "value": 59
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 64
+    },
+    {
+      "trait_type": "Strength",
+      "value": 59
+    },
+    {
+      "trait_type": "Luck",
+      "value": 54
+    }
+  ],
+  "totalStats": 291
+}

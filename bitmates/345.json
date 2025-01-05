@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/9a3a192666a2cb0880b9.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmUZkfNpQGy34KKrEHd6tNzctp9MpB2ZbmkSBTgf1Vwb69",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5939656650003522",
+  "name": "BitMate #345",
+  "id": 345,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef Coat",
+      "rare": "0,79%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Wreath",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 207
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 51
+    },
+    {
+      "trait_type": "Agility",
+      "value": 31
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 45
+    },
+    {
+      "trait_type": "Strength",
+      "value": 41
+    },
+    {
+      "trait_type": "Luck",
+      "value": 34
+    }
+  ],
+  "totalStats": 202
+}

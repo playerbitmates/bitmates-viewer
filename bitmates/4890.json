@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a1e847c87ac112b3698e.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Braveheart Barraks",
+      "bit_qty": 76,
+      "rarity": "0.76%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmUn9fXK9CvbJG3K5QGBqWfXEw5mRTpCXfgj1jWAirLEpW",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9143715336217448",
+  "name": "BitMate #4890",
+  "id": 4890,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Mime Shirt",
+      "rare": "2,55%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Ninja",
+      "rare": "1,54%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 144
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 37
+    },
+    {
+      "trait_type": "Agility",
+      "value": 61
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 73
+    },
+    {
+      "trait_type": "Strength",
+      "value": 67
+    },
+    {
+      "trait_type": "Luck",
+      "value": 35
+    }
+  ],
+  "totalStats": 273
+}

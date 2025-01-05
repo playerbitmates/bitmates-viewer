@@ -1,0 +1,86 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/049788e286323401c705.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmSrFqtELEBbGDdoxJ447dVWJtMhHJNb8qyRhBcathttGJ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5326806606613192",
+  "name": "BitMate #6390",
+  "id": 6390,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Mermonkey",
+      "rare": "2,97%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Firesuit",
+      "rare": "2,31%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Jester",
+      "rare": "1,23%"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Rifle",
+      "rare": "0,42%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 428
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 44
+    },
+    {
+      "trait_type": "Agility",
+      "value": 24
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 31
+    },
+    {
+      "trait_type": "Strength",
+      "value": 63
+    },
+    {
+      "trait_type": "Luck",
+      "value": 36
+    }
+  ],
+  "totalStats": 198
+}

@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/98ebb7c73706fe5a88d6.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmXb7GPGHLxyp9cB7DuCZsjHRP4j41YitDZpwN66wPDvef",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5049482472734765",
+  "name": "BitMate #254",
+  "id": 254,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap",
+      "rare": "5,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Burly"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 73
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 47
+    },
+    {
+      "trait_type": "Agility",
+      "value": 77
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 73
+    },
+    {
+      "trait_type": "Strength",
+      "value": 81
+    },
+    {
+      "trait_type": "Luck",
+      "value": 70
+    }
+  ],
+  "totalStats": 348
+}

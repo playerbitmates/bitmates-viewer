@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/18f7175edd182d78af97.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmeN6BPyg92h8yuXGALpaMVkJhY3vzK1PLmiNMCAsziNze",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3506910283139688",
+  "name": "BitMate #4248",
+  "id": 4248,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Chimp",
+      "rare": "6,57%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 36
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 41
+    },
+    {
+      "trait_type": "Agility",
+      "value": 55
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 60
+    },
+    {
+      "trait_type": "Strength",
+      "value": 44
+    },
+    {
+      "trait_type": "Luck",
+      "value": 51
+    }
+  ],
+  "totalStats": 251
+}

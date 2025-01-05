@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/202c034641e9a79b384e.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmRCZghLQLRaoQkYPYKtRNYipGx7wq5nxJgpGHRnauQ7ZE",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4895854571185576",
+  "name": "BitMate #6024",
+  "id": 6024,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Viking",
+      "rare": "0,46%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Beard",
+      "rare": "0,53%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 349
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 57
+    },
+    {
+      "trait_type": "Agility",
+      "value": 66
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 81
+    },
+    {
+      "trait_type": "Strength",
+      "value": 65
+    },
+    {
+      "trait_type": "Luck",
+      "value": 43
+    }
+  ],
+  "totalStats": 312
+}

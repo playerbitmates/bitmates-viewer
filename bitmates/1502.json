@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/23caea3820c2edf96d93.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    },
+    {
+      "region": "Nesadet",
+      "bit_qty": 107,
+      "rarity": "1.07%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmdCtJdAeBfMmDgZPaY7VBJJbMMPT6fmTBLSGK1a42H6m9",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7373363536554549",
+  "name": "BitMate #1502",
+  "id": 1502,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Short Cape",
+      "rare": "1,55%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ribbon",
+      "rare": "4,57%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 121
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 62
+    },
+    {
+      "trait_type": "Agility",
+      "value": 44
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 64
+    },
+    {
+      "trait_type": "Strength",
+      "value": 75
+    },
+    {
+      "trait_type": "Luck",
+      "value": 57
+    }
+  ],
+  "totalStats": 302
+}

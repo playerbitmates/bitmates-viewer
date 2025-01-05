@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/1761279c7ba7aa294b02.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "The Calm",
+      "bit_qty": 344,
+      "rarity": "3.44%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmXuATjoqVUZsgysnPtgYQxX9s7Yq4JCGh79fyh8dxHYsw",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3430158702905750",
+  "name": "BitMate #7545",
+  "id": 7545,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Robot",
+      "rare": "2,59%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap",
+      "rare": "5,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Galaxy"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 123
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 98
+    },
+    {
+      "trait_type": "Agility",
+      "value": 48
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 77
+    },
+    {
+      "trait_type": "Strength",
+      "value": 71
+    },
+    {
+      "trait_type": "Luck",
+      "value": 11
+    }
+  ],
+  "totalStats": 305
+}

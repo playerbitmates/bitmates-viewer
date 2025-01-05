@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/7f356b00a9a25b0cdc2c.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmTpPFyDrgpHNx5TgF5p8fDSQX7B99sYroFjKqSsbwBFex",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7319217097663819",
+  "name": "BitMate #9717",
+  "id": 9717,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Gorilla",
+      "rare": "4,07%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 76
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 64
+    },
+    {
+      "trait_type": "Agility",
+      "value": 39
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 63
+    },
+    {
+      "trait_type": "Strength",
+      "value": 19
+    },
+    {
+      "trait_type": "Luck",
+      "value": 63
+    }
+  ],
+  "totalStats": 248
+}

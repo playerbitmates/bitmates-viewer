@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/b91f4bb72ac68e59f8a4.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Cinder City",
+      "bit_qty": 80,
+      "rarity": "0.80%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmYUSHqLhxm5LRFXw5rp1xwbQKX93reqyVzsf5Juup3vS2",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7744959312646011",
+  "name": "BitMate #3172",
+  "id": 3172,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Deer",
+      "rare": "1,73%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Gas Mask",
+      "rare": "2,48%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 119
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 29
+    },
+    {
+      "trait_type": "Agility",
+      "value": 25
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 76
+    },
+    {
+      "trait_type": "Strength",
+      "value": 42
+    },
+    {
+      "trait_type": "Luck",
+      "value": 34
+    }
+  ],
+  "totalStats": 206
+}

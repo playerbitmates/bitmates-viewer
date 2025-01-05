@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2be3cefc12a8be6fce83.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmQwzc9ZUNaoRGWWczSQg2Vw1YzG5u1jyi2cVhjWLXEt3o",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5638390946505931",
+  "name": "BitMate #7669",
+  "id": 7669,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 59
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 52
+    },
+    {
+      "trait_type": "Agility",
+      "value": 25
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 87
+    },
+    {
+      "trait_type": "Strength",
+      "value": 44
+    },
+    {
+      "trait_type": "Luck",
+      "value": 41
+    }
+  ],
+  "totalStats": 249
+}

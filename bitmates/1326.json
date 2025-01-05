@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/f3418056042627ccf08b.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmcGXikct7vW7JGSy5MMnC3FFRVbdpwyYQbsMBMvocZ8hN",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4728077249887439",
+  "name": "BitMate #1326",
+  "id": 1326,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Robot",
+      "rare": "2,59%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Beanie",
+      "rare": "4,51%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Timepiece",
+      "rare": "1,27%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 161
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 34
+    },
+    {
+      "trait_type": "Agility",
+      "value": 45
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 69
+    },
+    {
+      "trait_type": "Strength",
+      "value": 63
+    },
+    {
+      "trait_type": "Luck",
+      "value": 38
+    }
+  ],
+  "totalStats": 249
+}

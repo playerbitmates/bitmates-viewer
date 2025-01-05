@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/8ff54d7ffe8cfce70e08.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Interloper's Cavern",
+      "bit_qty": 296,
+      "rarity": "2.96%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmeApg9NYN7UWnWoid5JzBUHs84HeAevvozYxtsUnkjqQS",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1044563271204861",
+  "name": "BitMate #1884",
+  "id": 1884,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 58
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 76
+    },
+    {
+      "trait_type": "Agility",
+      "value": 26
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 61
+    },
+    {
+      "trait_type": "Strength",
+      "value": 31
+    },
+    {
+      "trait_type": "Luck",
+      "value": 19
+    }
+  ],
+  "totalStats": 213
+}

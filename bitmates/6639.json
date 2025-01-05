@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/97345f1a4506e2eef663.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmZzAeT5rHoUakKE8WQHZxBnkFtLwPC79L3jC5s2NbeUci",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4972879238429000",
+  "name": "BitMate #6639",
+  "id": 6639,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Viking",
+      "rare": "0,46%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Ninja",
+      "rare": "1,54%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 315
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 62
+    },
+    {
+      "trait_type": "Agility",
+      "value": 25
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 47
+    },
+    {
+      "trait_type": "Strength",
+      "value": 59
+    },
+    {
+      "trait_type": "Luck",
+      "value": 26
+    }
+  ],
+  "totalStats": 219
+}

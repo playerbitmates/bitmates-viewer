@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/774911a70b3cac8906de.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmaxbGuBm4GCQuUH4Afj463BAvJXYJFS7qyaQqs1yepmGs",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6685911923613845",
+  "name": "BitMate #7270",
+  "id": 7270,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 39
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 71
+    },
+    {
+      "trait_type": "Agility",
+      "value": 35
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 61
+    },
+    {
+      "trait_type": "Strength",
+      "value": 67
+    },
+    {
+      "trait_type": "Luck",
+      "value": 40
+    }
+  ],
+  "totalStats": 274
+}

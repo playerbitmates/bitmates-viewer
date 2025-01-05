@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/be0623e8c641c69e159a.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "The Calm",
+      "bit_qty": 344,
+      "rarity": "3.44%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmdhzgyakeSgZ2dEKYMfouPsCY2JsFfcAmRVADiTnMcBbe",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8386177195040427",
+  "name": "BitMate #3409",
+  "id": 3409,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Imp",
+      "rare": "1,56%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Short Cape",
+      "rare": "1,55%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 165
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 63
+    },
+    {
+      "trait_type": "Agility",
+      "value": 40
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 50
+    },
+    {
+      "trait_type": "Strength",
+      "value": 50
+    },
+    {
+      "trait_type": "Luck",
+      "value": 77
+    }
+  ],
+  "totalStats": 280
+}

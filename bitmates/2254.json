@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/7d74c78a9439a88421dd.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmVQBpvSA4tjL9thiYZ5ztBtYuDkw4Kuf2sCbA2xtJ9pmA",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4232210818837936",
+  "name": "BitMate #2254",
+  "id": 2254,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Deer",
+      "rare": "1,73%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 86
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 70
+    },
+    {
+      "trait_type": "Agility",
+      "value": 23
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 66
+    },
+    {
+      "trait_type": "Strength",
+      "value": 65
+    },
+    {
+      "trait_type": "Luck",
+      "value": 72
+    }
+  ],
+  "totalStats": 296
+}

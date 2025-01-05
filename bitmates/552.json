@@ -1,0 +1,86 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/0b731c882d9f9a20c127.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmW8BEgmsP8pQSnkRRoLTu9imuVkdsKgrQkCKti4YsJvKF",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0835625485182087",
+  "name": "BitMate #552",
+  "id": 552,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Sleeveless Shirt",
+      "rare": "2,64%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ribbon",
+      "rare": "4,57%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Pom-poms",
+      "rare": "0,64%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smooth"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 273
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 8
+    },
+    {
+      "trait_type": "Agility",
+      "value": 47
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 42
+    },
+    {
+      "trait_type": "Strength",
+      "value": 47
+    },
+    {
+      "trait_type": "Luck",
+      "value": 38
+    }
+  ],
+  "totalStats": 182
+}

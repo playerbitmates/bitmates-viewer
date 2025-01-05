@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/15ac75e9bd25b0dc5fca.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Clear Skies Farm",
+      "bit_qty": 179,
+      "rarity": "1.79%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmQDWsyKsmCzhXDU7VDdPqzZz5qDuRFsG3e1RmkNWD5LtF",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1331611338195895",
+  "name": "BitMate #4814",
+  "id": 4814,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 33
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 57
+    },
+    {
+      "trait_type": "Agility",
+      "value": 53
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 43
+    },
+    {
+      "trait_type": "Strength",
+      "value": 49
+    },
+    {
+      "trait_type": "Luck",
+      "value": 61
+    }
+  ],
+  "totalStats": 263
+}

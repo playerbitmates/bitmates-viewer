@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a0bef414caa6cbec397c.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmSAvbPojLRMWMZopmS3fA2qBJSaC431VJwisW1g5gmrTL",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1970312995555487",
+  "name": "BitMate #2913",
+  "id": 2913,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 53
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 31
+    },
+    {
+      "trait_type": "Agility",
+      "value": 24
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 30
+    },
+    {
+      "trait_type": "Strength",
+      "value": 23
+    },
+    {
+      "trait_type": "Luck",
+      "value": 74
+    }
+  ],
+  "totalStats": 182
+}

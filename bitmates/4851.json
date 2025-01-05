@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2838cb0c7c910e07b9f3.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Lunora",
+      "bit_qty": 169,
+      "rarity": "1.69%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmTJbGPrjtWHK2fMDbmvXHv8NcscTUDSumZeucQKwpuijB",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0362183242158271",
+  "name": "BitMate #4851",
+  "id": 4851,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Zombie",
+      "rare": "1,86%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Wizard",
+      "rare": "0,68%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 216
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 54
+    },
+    {
+      "trait_type": "Agility",
+      "value": 66
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 52
+    },
+    {
+      "trait_type": "Strength",
+      "value": 53
+    },
+    {
+      "trait_type": "Luck",
+      "value": 43
+    }
+  ],
+  "totalStats": 268
+}

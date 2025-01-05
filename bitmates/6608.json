@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/ba651de647b70d9662c6.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmeSS4eRiKbnUt5Wb1H3oY1C8PiNDpAGPD5iZiZn932W3f",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4167039510866603",
+  "name": "BitMate #6608",
+  "id": 6608,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Deer",
+      "rare": "1,73%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Balloons",
+      "rare": "2,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 112
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 67
+    },
+    {
+      "trait_type": "Agility",
+      "value": 53
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 59
+    },
+    {
+      "trait_type": "Strength",
+      "value": 69
+    },
+    {
+      "trait_type": "Luck",
+      "value": 64
+    }
+  ],
+  "totalStats": 312
+}

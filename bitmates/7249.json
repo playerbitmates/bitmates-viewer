@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a63f1cff5fb43fc3d337.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Mount Cinder",
+      "bit_qty": 175,
+      "rarity": "1.75%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmdQV2T6LHjGDUZdMMJH4xQxB3zHq6T8g2kfGAcxMJMsoA",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9130374018601516",
+  "name": "BitMate #7249",
+  "id": 7249,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Long Cape",
+      "rare": "0,78%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Boxing Headgear",
+      "rare": "3,47%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 200
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 36
+    },
+    {
+      "trait_type": "Agility",
+      "value": 27
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 56
+    },
+    {
+      "trait_type": "Strength",
+      "value": 62
+    },
+    {
+      "trait_type": "Luck",
+      "value": 64
+    }
+  ],
+  "totalStats": 245
+}

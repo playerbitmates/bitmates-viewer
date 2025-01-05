@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/f6181df5749f1e5fcde8.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Interloper's Cavern",
+      "bit_qty": 296,
+      "rarity": "2.96%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmY5DCFhRJx5ATDES2MdnbUgZLcnpB5JJ8Q94Jg5uCdJXN",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1040481547905625",
+  "name": "BitMate #480",
+  "id": 480,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cat Ears",
+      "rare": "2,20%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 70
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 26
+    },
+    {
+      "trait_type": "Agility",
+      "value": 43
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 52
+    },
+    {
+      "trait_type": "Strength",
+      "value": 49
+    },
+    {
+      "trait_type": "Luck",
+      "value": 65
+    }
+  ],
+  "totalStats": 235
+}

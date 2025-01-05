@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/1b7bcf00258561a8ac15.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "The Calm",
+      "bit_qty": 344,
+      "rarity": "3.44%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmcZE4mWygmBU1AZUkAQzCcqPnXnPn89MRpiZ8AxFrz43x",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7282478231260980",
+  "name": "BitMate #6148",
+  "id": 6148,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Twin Tails",
+      "rare": "2,07%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Burly"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 112
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 37
+    },
+    {
+      "trait_type": "Agility",
+      "value": 49
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 34
+    },
+    {
+      "trait_type": "Strength",
+      "value": 81
+    },
+    {
+      "trait_type": "Luck",
+      "value": 58
+    }
+  ],
+  "totalStats": 259
+}

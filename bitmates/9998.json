@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/4348b34066abb695787a.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmS7xAuBkn4rAugQEodqDfKn5fXRbBSUpzRfw4QkNKbRWM",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1955333198233939",
+  "name": "BitMate #9998",
+  "id": 9998,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fox",
+      "rare": "4,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Safety Vest",
+      "rare": "2,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Dull"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 107
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 55
+    },
+    {
+      "trait_type": "Agility",
+      "value": 74
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 6
+    },
+    {
+      "trait_type": "Strength",
+      "value": 36
+    },
+    {
+      "trait_type": "Luck",
+      "value": 62
+    }
+  ],
+  "totalStats": 233
+}

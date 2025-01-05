@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a62800ab36e9c446fb0c.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Vitacrypt",
+      "bit_qty": 263,
+      "rarity": "2.63%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmREtAkznmSD9FuANEnwk8mVvCGs3GPfA2JmLFPhGEJhJP",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6716307856503290",
+  "name": "BitMate #295",
+  "id": 295,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef Coat",
+      "rare": "0,79%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mustache",
+      "rare": "0,35%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 439
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 50
+    },
+    {
+      "trait_type": "Agility",
+      "value": 51
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 56
+    },
+    {
+      "trait_type": "Strength",
+      "value": 70
+    },
+    {
+      "trait_type": "Luck",
+      "value": 43
+    }
+  ],
+  "totalStats": 270
+}

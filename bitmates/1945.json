@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2c9bac5d1ee38e51009f.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmU3GSXm8N7mcRm7d1jP4rp4fLKK95o7TXptrZf52YqjQL",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1539754625100857",
+  "name": "BitMate #1945",
+  "id": 1945,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Chain Necklace",
+      "rare": "1,23%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Farmer",
+      "rare": "5,00%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 185
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 35
+    },
+    {
+      "trait_type": "Agility",
+      "value": 87
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 46
+    },
+    {
+      "trait_type": "Strength",
+      "value": 41
+    },
+    {
+      "trait_type": "Luck",
+      "value": 6
+    }
+  ],
+  "totalStats": 215
+}

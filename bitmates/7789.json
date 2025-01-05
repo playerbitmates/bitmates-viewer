@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/fafa5a170c01bf2c514c.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Clear Skies Farm",
+      "bit_qty": 179,
+      "rarity": "1.79%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmQYyRu9rcmjRs9s94zfWsY5NZrgo6Za67sXdLub8SBRTQ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2374090158525892",
+  "name": "BitMate #7789",
+  "id": 7789,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Demon",
+      "rare": "3,71%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Firefighter",
+      "rare": "2,98%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 83
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 66
+    },
+    {
+      "trait_type": "Agility",
+      "value": 20
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 63
+    },
+    {
+      "trait_type": "Strength",
+      "value": 23
+    },
+    {
+      "trait_type": "Luck",
+      "value": 79
+    }
+  ],
+  "totalStats": 251
+}

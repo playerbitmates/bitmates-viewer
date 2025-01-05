@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/78669b91864ed33a8652.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmYeDDSEpLMRqkL3v8aqSAE72qKkx9QwMT5BCi3de8zm6w",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2426890796410290",
+  "name": "BitMate #997",
+  "id": 997,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Beanie",
+      "rare": "4,51%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Timepiece",
+      "rare": "1,27%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 133
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 64
+    },
+    {
+      "trait_type": "Agility",
+      "value": 70
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 42
+    },
+    {
+      "trait_type": "Strength",
+      "value": 50
+    },
+    {
+      "trait_type": "Luck",
+      "value": 30
+    }
+  ],
+  "totalStats": 256
+}

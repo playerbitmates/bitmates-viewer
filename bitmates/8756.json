@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/989af19929424e66acc1.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmXiZztwf9s83PhdvnEyyJEdzyVsSaYZiXLBgf5zZNy2Tp",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4503044630758912",
+  "name": "BitMate #8756",
+  "id": 8756,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Orangutan",
+      "rare": "2,65%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Mime Shirt",
+      "rare": "2,55%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Wreath",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 167
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 39
+    },
+    {
+      "trait_type": "Agility",
+      "value": 28
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 62
+    },
+    {
+      "trait_type": "Strength",
+      "value": 5
+    },
+    {
+      "trait_type": "Luck",
+      "value": 52
+    }
+  ],
+  "totalStats": 186
+}

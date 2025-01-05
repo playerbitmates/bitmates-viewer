@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a105d911a9094769ebf0.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmSBwRubGLjr9ZhmyDRpP8fi34gx3eo9UzNFB5BANaxnat",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7498032613522925",
+  "name": "BitMate #6956",
+  "id": 6956,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ghost",
+      "rare": "0,94%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 218
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 55
+    },
+    {
+      "trait_type": "Agility",
+      "value": 77
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 23
+    },
+    {
+      "trait_type": "Strength",
+      "value": 54
+    },
+    {
+      "trait_type": "Luck",
+      "value": 47
+    }
+  ],
+  "totalStats": 256
+}

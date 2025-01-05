@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a153b71345fd60e6b77b.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Nature's Embrace",
+      "bit_qty": 357,
+      "rarity": "3.57%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmYX8Npszb74jjHrnY6NSunRJQtgdYGK5Kz9DSMq1oqa7G",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4985982101634510",
+  "name": "BitMate #4216",
+  "id": 4216,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fish",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Katana",
+      "rare": "0,45%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pirate Hat",
+      "rare": "1,78%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 340
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 54
+    },
+    {
+      "trait_type": "Agility",
+      "value": 53
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 58
+    },
+    {
+      "trait_type": "Strength",
+      "value": 40
+    },
+    {
+      "trait_type": "Luck",
+      "value": 38
+    }
+  ],
+  "totalStats": 243
+}

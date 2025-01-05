@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2b3993106dee5715853b.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmXp5gtytQaLiKmRBAnLjxD3d8agXSuEHwuTRgzPTgJjJs",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1688907911361550",
+  "name": "BitMate #3323",
+  "id": 3323,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Flower",
+      "rare": "1,71%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 92
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 41
+    },
+    {
+      "trait_type": "Agility",
+      "value": 22
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 22
+    },
+    {
+      "trait_type": "Strength",
+      "value": 28
+    },
+    {
+      "trait_type": "Luck",
+      "value": 75
+    }
+  ],
+  "totalStats": 188
+}

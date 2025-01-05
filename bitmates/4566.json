@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/612dbf2450d8b013fdad.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmWMK5QUcUntwaoNPymNQFzGF7618kkpKbShN2CbQusKGW",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3219090480224675",
+  "name": "BitMate #4566",
+  "id": 4566,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Balloons",
+      "rare": "2,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 92
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 38
+    },
+    {
+      "trait_type": "Agility",
+      "value": 56
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 71
+    },
+    {
+      "trait_type": "Strength",
+      "value": 66
+    },
+    {
+      "trait_type": "Luck",
+      "value": 33
+    }
+  ],
+  "totalStats": 264
+}

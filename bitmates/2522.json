@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/7fe52092c0d7a14bf19a.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmWvGVnLoqcEFNKsmvv4pkUo6cgpWULVL68eD78sz5QoZp",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6756649990105466",
+  "name": "BitMate #2522",
+  "id": 2522,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Astronaut Suit",
+      "rare": "0,08%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 1287
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 27
+    },
+    {
+      "trait_type": "Agility",
+      "value": 62
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 33
+    },
+    {
+      "trait_type": "Strength",
+      "value": 61
+    },
+    {
+      "trait_type": "Luck",
+      "value": 41
+    }
+  ],
+  "totalStats": 224
+}

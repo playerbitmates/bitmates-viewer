@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/bf91c32874d91823f4b5.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Solaire",
+      "bit_qty": 454,
+      "rarity": "4.54%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmTtBGDQrWc1imD3N2BvDM3AkwdNzMahStvVFbqyzboe95",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6987795815365911",
+  "name": "BitMate #1119",
+  "id": 1119,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Orangutan",
+      "rare": "2,65%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cheerleader Uniform",
+      "rare": "2,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Firefighter",
+      "rare": "2,98%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 161
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 56
+    },
+    {
+      "trait_type": "Agility",
+      "value": 42
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 85
+    },
+    {
+      "trait_type": "Strength",
+      "value": 65
+    },
+    {
+      "trait_type": "Luck",
+      "value": 45
+    }
+  ],
+  "totalStats": 293
+}

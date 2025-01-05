@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/50d677565a75a9d02d84.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmZKkvgCuRVXPVcHUprrFs4EbDxoccs2L4nFtktnFheQ3u",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1803303862925038",
+  "name": "BitMate #4853",
+  "id": 4853,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Firesuit",
+      "rare": "2,31%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 95
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 72
+    },
+    {
+      "trait_type": "Agility",
+      "value": 55
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 71
+    },
+    {
+      "trait_type": "Strength",
+      "value": 69
+    },
+    {
+      "trait_type": "Luck",
+      "value": 51
+    }
+  ],
+  "totalStats": 318
+}

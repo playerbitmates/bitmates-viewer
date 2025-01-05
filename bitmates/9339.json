@@ -1,0 +1,92 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/8f41373a5cd6390fc32c.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    },
+    {
+      "region": "Primus",
+      "bit_qty": 192,
+      "rarity": "1.92%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmckD6X4CXstBGU8z2UsthktECvFDhdAJGQQ1TL8YZSeZk",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4915781337097631",
+  "name": "BitMate #9339",
+  "id": 9339,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Chimp",
+      "rare": "6,57%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Vampire Cloak",
+      "rare": "0,69%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Top Hat",
+      "rare": "1,37%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Paintbrush",
+      "rare": "1,06%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 400
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 42
+    },
+    {
+      "trait_type": "Agility",
+      "value": 82
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 86
+    },
+    {
+      "trait_type": "Strength",
+      "value": 52
+    },
+    {
+      "trait_type": "Luck",
+      "value": 52
+    }
+  ],
+  "totalStats": 314
+}

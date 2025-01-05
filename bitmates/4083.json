@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/ed546d9876f00108223a.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Cinder City",
+      "bit_qty": 80,
+      "rarity": "0.80%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmNndEdQHYf8EzE5DEohLccuM14oJ6ojcuosgaPnvNrSuE",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9192914111159732",
+  "name": "BitMate #4083",
+  "id": 4083,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Potato"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 119
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 58
+    },
+    {
+      "trait_type": "Agility",
+      "value": 18
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 33
+    },
+    {
+      "trait_type": "Strength",
+      "value": 41
+    },
+    {
+      "trait_type": "Luck",
+      "value": 32
+    }
+  ],
+  "totalStats": 182
+}

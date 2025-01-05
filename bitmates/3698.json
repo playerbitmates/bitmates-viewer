@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/52eb3368167cceffea7c.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Interloper's Cavern",
+      "bit_qty": 296,
+      "rarity": "2.96%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmQvzLrQN1nZtabijp6D6xL68GhBh45kjweVQye9NoaSHH",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9471359425622800",
+  "name": "BitMate #3698",
+  "id": 3698,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Gorilla",
+      "rare": "4,07%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ruffled Shirt",
+      "rare": "2,06%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Medical Mask",
+      "rare": "1,53%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 158
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 50
+    },
+    {
+      "trait_type": "Agility",
+      "value": 71
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 66
+    },
+    {
+      "trait_type": "Strength",
+      "value": 44
+    },
+    {
+      "trait_type": "Luck",
+      "value": 32
+    }
+  ],
+  "totalStats": 263
+}

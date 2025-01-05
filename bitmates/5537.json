@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/fa7b7298f7c153943fbd.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Nature's Embrace",
+      "bit_qty": 357,
+      "rarity": "3.57%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmVzWpfif8j2F4jUDUumbjvsLYYJWcsLK2gABxH65WPcib",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3334065873243590",
+  "name": "BitMate #5537",
+  "id": 5537,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Deer",
+      "rare": "1,73%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 82
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 46
+    },
+    {
+      "trait_type": "Agility",
+      "value": 62
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 42
+    },
+    {
+      "trait_type": "Strength",
+      "value": 33
+    },
+    {
+      "trait_type": "Luck",
+      "value": 36
+    }
+  ],
+  "totalStats": 219
+}

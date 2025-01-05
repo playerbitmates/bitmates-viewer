@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/b3a55c66d7b9022e4117.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmYdD7wKHCWGPa8WfLa325bC3gfS5h2oo57cbVUgjA9ZGa",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3350174936274457",
+  "name": "BitMate #1455",
+  "id": 1455,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 50
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 31
+    },
+    {
+      "trait_type": "Agility",
+      "value": 64
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 35
+    },
+    {
+      "trait_type": "Strength",
+      "value": 52
+    },
+    {
+      "trait_type": "Luck",
+      "value": 56
+    }
+  ],
+  "totalStats": 238
+}

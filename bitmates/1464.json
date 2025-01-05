@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/432cde836969d3a4b834.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmNrJndz8VVRJ6UFUj4A3H1U9vNURxHFouba6DbmwuPWUp",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1866138479262651",
+  "name": "BitMate #1464",
+  "id": 1464,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Orangutan",
+      "rare": "2,65%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Gas Mask",
+      "rare": "2,48%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 91
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 40
+    },
+    {
+      "trait_type": "Agility",
+      "value": 42
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 42
+    },
+    {
+      "trait_type": "Strength",
+      "value": 48
+    },
+    {
+      "trait_type": "Luck",
+      "value": 52
+    }
+  ],
+  "totalStats": 224
+}

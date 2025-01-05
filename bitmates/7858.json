@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/d24de89b6d12da5b9b8b.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Winter's Respite",
+      "bit_qty": 503,
+      "rarity": "5.03%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmXWz7o34G3XRbnudoSRHkNojn1vBJFozQKWAg6y5fvCL2",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9934371498962180",
+  "name": "BitMate #7858",
+  "id": 7858,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Farmer",
+      "rare": "5,00%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Balloons",
+      "rare": "2,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 89
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 69
+    },
+    {
+      "trait_type": "Agility",
+      "value": 40
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 43
+    },
+    {
+      "trait_type": "Strength",
+      "value": 53
+    },
+    {
+      "trait_type": "Luck",
+      "value": 60
+    }
+  ],
+  "totalStats": 265
+}

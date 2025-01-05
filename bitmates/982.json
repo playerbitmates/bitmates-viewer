@@ -1,0 +1,92 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/39c260aaf809aaee3165.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Calm",
+      "bit_qty": 344,
+      "rarity": "3.44%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmYaEMA92XNCSKKmjzYScBr2W9zaREynyVDoFRwPgLZa2c",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6475859682544944",
+  "name": "BitMate #982",
+  "id": 982,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Backpack",
+      "rare": "3,24%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Hypno Glasses",
+      "rare": "0,27%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 523
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 47
+    },
+    {
+      "trait_type": "Agility",
+      "value": 83
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 55
+    },
+    {
+      "trait_type": "Strength",
+      "value": 60
+    },
+    {
+      "trait_type": "Luck",
+      "value": 51
+    }
+  ],
+  "totalStats": 296
+}

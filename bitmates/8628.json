@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/bb93edf34ce2178e3c51.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Castaway Cove",
+      "bit_qty": 353,
+      "rarity": "3.53%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmUZ5PoXNDhVwdY3AeyMA3YdnH724E69fC2cjUE1rcvumZ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7468060725238084",
+  "name": "BitMate #8628",
+  "id": 8628,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Horns",
+      "rare": "0,80%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 179
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 49
+    },
+    {
+      "trait_type": "Agility",
+      "value": 81
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 50
+    },
+    {
+      "trait_type": "Strength",
+      "value": 68
+    },
+    {
+      "trait_type": "Luck",
+      "value": 51
+    }
+  ],
+  "totalStats": 299
+}

@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/eb799bc58eb2558ba0d1.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmZKmkEakLiUVkWv7NCJgEAvinarDZ171rb6jyt5ZkWGv6",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9472457713319776",
+  "name": "BitMate #842",
+  "id": 842,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Deer",
+      "rare": "1,73%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 103
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 23
+    },
+    {
+      "trait_type": "Agility",
+      "value": 81
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 57
+    },
+    {
+      "trait_type": "Strength",
+      "value": 49
+    },
+    {
+      "trait_type": "Luck",
+      "value": 70
+    }
+  ],
+  "totalStats": 280
+}

@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/3d081c3f7baa26e0156b.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmaBwBvPPefzXQvP4CmD8vz8bgh4h4BYmZmC4unULTKQxi",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1706044366083303",
+  "name": "BitMate #3064",
+  "id": 3064,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Alien",
+      "rare": "1,09%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Beanie",
+      "rare": "4,51%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 129
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 58
+    },
+    {
+      "trait_type": "Agility",
+      "value": 48
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 39
+    },
+    {
+      "trait_type": "Strength",
+      "value": 58
+    },
+    {
+      "trait_type": "Luck",
+      "value": 52
+    }
+  ],
+  "totalStats": 255
+}

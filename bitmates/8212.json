@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/1fb667449ff74002ffda.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Lunora",
+      "bit_qty": 169,
+      "rarity": "1.69%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://Qme3hX9kucXmpeUcPimjAiELj1uSHhCi7vPtUPvBxHFyYJ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6743528523650875",
+  "name": "BitMate #8212",
+  "id": 8212,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Chimp",
+      "rare": "6,57%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Magician",
+      "rare": "0,44%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Gas Mask",
+      "rare": "2,48%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 302
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 39
+    },
+    {
+      "trait_type": "Agility",
+      "value": 58
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 59
+    },
+    {
+      "trait_type": "Strength",
+      "value": 26
+    },
+    {
+      "trait_type": "Luck",
+      "value": 33
+    }
+  ],
+  "totalStats": 215
+}

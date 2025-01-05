@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/b0b916d354fd6934ba23.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Calm",
+      "bit_qty": 344,
+      "rarity": "3.44%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmPbu6yGA1JhdSZfvRX9Axp3r8vkpDJ2iSXoZ6YQZHPvJe",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8525394523756236",
+  "name": "BitMate #7300",
+  "id": 7300,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Demon",
+      "rare": "3,71%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Charmed"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 73
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 26
+    },
+    {
+      "trait_type": "Agility",
+      "value": 41
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 43
+    },
+    {
+      "trait_type": "Strength",
+      "value": 36
+    },
+    {
+      "trait_type": "Luck",
+      "value": 80
+    }
+  ],
+  "totalStats": 226
+}

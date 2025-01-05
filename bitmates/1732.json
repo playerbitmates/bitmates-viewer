@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/87ebdf12388be94b49c4.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    },
+    {
+      "region": "Desert Diamonds",
+      "bit_qty": 172,
+      "rarity": "1.72%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmbRwpfpQKpcsLGgPDQxHnjLmH6FbC2dySvc9MbstwVDea",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5381461839498904",
+  "name": "BitMate #1732",
+  "id": 1732,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pirate Coat",
+      "rare": "0,58%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Fish Bowl",
+      "rare": "1,58%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 273
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 48
+    },
+    {
+      "trait_type": "Agility",
+      "value": 69
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 48
+    },
+    {
+      "trait_type": "Strength",
+      "value": 41
+    },
+    {
+      "trait_type": "Luck",
+      "value": 43
+    }
+  ],
+  "totalStats": 249
+}

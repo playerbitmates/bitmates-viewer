@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/f13f3b8ccc8bae39a825.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmQdweikAPuAENioAA3EhM9ZZxyz8W2YkjiRLUpG68TKPR",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4517971960393348",
+  "name": "BitMate #1963",
+  "id": 1963,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Deer",
+      "rare": "1,73%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Mime Shirt",
+      "rare": "2,55%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 115
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 28
+    },
+    {
+      "trait_type": "Agility",
+      "value": 50
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 56
+    },
+    {
+      "trait_type": "Strength",
+      "value": 60
+    },
+    {
+      "trait_type": "Luck",
+      "value": 38
+    }
+  ],
+  "totalStats": 232
+}

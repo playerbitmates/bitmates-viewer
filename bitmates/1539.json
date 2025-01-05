@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/715ff65a88d6ce85c634.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmeqrGJUcSbbpBCeSKs2aZPRvf7jYsEwB1P3PTRHhjccLU",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3763514114959159",
+  "name": "BitMate #1539",
+  "id": 1539,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Boxing Headgear",
+      "rare": "3,47%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 134
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 31
+    },
+    {
+      "trait_type": "Agility",
+      "value": 51
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 45
+    },
+    {
+      "trait_type": "Strength",
+      "value": 29
+    },
+    {
+      "trait_type": "Luck",
+      "value": 35
+    }
+  ],
+  "totalStats": 191
+}

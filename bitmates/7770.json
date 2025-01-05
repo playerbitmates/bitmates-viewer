@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/d1a850bfe2662f83eb4b.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmXmPxYDLbN86jUyNkBXz1eyjR2hzWRQPJsKfSp8YCeQry",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0631244918757538",
+  "name": "BitMate #7770",
+  "id": 7770,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Gorilla",
+      "rare": "4,07%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 49
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 31
+    },
+    {
+      "trait_type": "Agility",
+      "value": 45
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 62
+    },
+    {
+      "trait_type": "Strength",
+      "value": 66
+    },
+    {
+      "trait_type": "Luck",
+      "value": 53
+    }
+  ],
+  "totalStats": 257
+}

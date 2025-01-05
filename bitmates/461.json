@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/658c7570c2ce3b6d8965.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "Oro's Atoll",
+      "bit_qty": 901,
+      "rarity": "9.01%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmeLHqfBADjd6z6QTrSHZ7pp7HFB7hczANrAeaTiXkKvMS",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9152942432520764",
+  "name": "BitMate #461",
+  "id": 461,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Safety Vest",
+      "rare": "2,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 68
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 30
+    },
+    {
+      "trait_type": "Agility",
+      "value": 52
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 55
+    },
+    {
+      "trait_type": "Strength",
+      "value": 45
+    },
+    {
+      "trait_type": "Luck",
+      "value": 59
+    }
+  ],
+  "totalStats": 241
+}

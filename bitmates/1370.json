@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/83cc19bce0206fc6c1c2.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmdVGFmnAiLqgnoQsFccsJVEYmDrPSXrdR3mJ1MUCgPeYj",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9410444603755662",
+  "name": "BitMate #1370",
+  "id": 1370,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Demon",
+      "rare": "3,71%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 53
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 78
+    },
+    {
+      "trait_type": "Agility",
+      "value": 68
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 22
+    },
+    {
+      "trait_type": "Strength",
+      "value": 41
+    },
+    {
+      "trait_type": "Luck",
+      "value": 69
+    }
+  ],
+  "totalStats": 278
+}

@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/ba09c73fedad5f02bea9.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmSPaWwHRUD3ES43RQ7Em4FY1zYhzwemkjPhDdwzQf1H9E",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4370672141376988",
+  "name": "BitMate #6807",
+  "id": 6807,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Chimp",
+      "rare": "6,57%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Paintbrush",
+      "rare": "1,06%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 176
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 39
+    },
+    {
+      "trait_type": "Agility",
+      "value": 76
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 80
+    },
+    {
+      "trait_type": "Strength",
+      "value": 22
+    },
+    {
+      "trait_type": "Luck",
+      "value": 63
+    }
+  ],
+  "totalStats": 280
+}

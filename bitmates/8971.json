@@ -1,0 +1,98 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/b7c7ae760510741c0231.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "secondary"
+    },
+    {
+      "region": "Winter's Respite",
+      "bit_qty": 503,
+      "rarity": "5.03%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://Qmek5kWm5ZX5LwMQ5gkAHi9ygJNNXX31y2N4nU9w2opX5w",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7553438412942632",
+  "name": "BitMate #8971",
+  "id": 8971,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Backpack",
+      "rare": "3,24%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Firefighter",
+      "rare": "2,98%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Medical Mask",
+      "rare": "1,53%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 196
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 69
+    },
+    {
+      "trait_type": "Agility",
+      "value": 86
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 61
+    },
+    {
+      "trait_type": "Strength",
+      "value": 36
+    },
+    {
+      "trait_type": "Luck",
+      "value": 36
+    }
+  ],
+  "totalStats": 288
+}

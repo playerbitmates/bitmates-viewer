@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/fd07af0e44fc44bc45df.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Solaire",
+      "bit_qty": 454,
+      "rarity": "4.54%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmdmcemmG1qwgxssmA7P768MA67SXs8P9zDgRtwec94mHc",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8431842367034879",
+  "name": "BitMate #1168",
+  "id": 1168,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Mermonkey",
+      "rare": "2,97%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Vampire Cloak",
+      "rare": "0,69%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 238
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 64
+    },
+    {
+      "trait_type": "Agility",
+      "value": 58
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 88
+    },
+    {
+      "trait_type": "Strength",
+      "value": 73
+    },
+    {
+      "trait_type": "Luck",
+      "value": 59
+    }
+  ],
+  "totalStats": 342
+}

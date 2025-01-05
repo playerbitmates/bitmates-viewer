@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/c93f60a25c8d4b464f9b.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "Oro's Atoll",
+      "bit_qty": 901,
+      "rarity": "9.01%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmYG3t6gR6KypEBQo68AfmoMwxeHWcMbZmEBsWrFUdsoMT",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8611786786728450",
+  "name": "BitMate #7506",
+  "id": 7506,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 33
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 54
+    },
+    {
+      "trait_type": "Agility",
+      "value": 41
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 38
+    },
+    {
+      "trait_type": "Strength",
+      "value": 41
+    },
+    {
+      "trait_type": "Luck",
+      "value": 47
+    }
+  ],
+  "totalStats": 221
+}

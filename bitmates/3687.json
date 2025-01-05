@@ -1,0 +1,86 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/5e5cb2d3c86719702de1.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmaYJGBq5gGyvWNQXvHiocnaKJR4xqQtCBW3Hwy3jiDGGn",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4173008948581036",
+  "name": "BitMate #3687",
+  "id": 3687,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Chimp",
+      "rare": "6,57%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Backpack",
+      "rare": "3,24%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap",
+      "rare": "5,40%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Mime Shirt",
+      "rare": "2,55%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 128
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 40
+    },
+    {
+      "trait_type": "Agility",
+      "value": 49
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 45
+    },
+    {
+      "trait_type": "Strength",
+      "value": 48
+    },
+    {
+      "trait_type": "Luck",
+      "value": 56
+    }
+  ],
+  "totalStats": 238
+}

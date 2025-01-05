@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/0d93d5d61f1841061bc5.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmUycE9kijcR6oLMW4SKSd3YCg9Jbvp8qEUf83A1rwG3na",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7608630935618799",
+  "name": "BitMate #407",
+  "id": 407,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fox",
+      "rare": "4,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Trench Coat",
+      "rare": "2,33%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Top Hat",
+      "rare": "1,37%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Burly"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 202
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 48
+    },
+    {
+      "trait_type": "Agility",
+      "value": 89
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 70
+    },
+    {
+      "trait_type": "Strength",
+      "value": 95
+    },
+    {
+      "trait_type": "Luck",
+      "value": 67
+    }
+  ],
+  "totalStats": 369
+}

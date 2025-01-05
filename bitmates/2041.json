@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/79ac8ca1b7949786d15e.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "Oro's Atoll",
+      "bit_qty": 901,
+      "rarity": "9.01%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmcCvroRbpcATomxRLPa6ATDbLDALcLE8zWzk5iHDojNH4",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9230717817180166",
+  "name": "BitMate #2041",
+  "id": 2041,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cheerleader Uniform",
+      "rare": "2,08%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 94
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 56
+    },
+    {
+      "trait_type": "Agility",
+      "value": 31
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 56
+    },
+    {
+      "trait_type": "Strength",
+      "value": 67
+    },
+    {
+      "trait_type": "Luck",
+      "value": 56
+    }
+  ],
+  "totalStats": 266
+}

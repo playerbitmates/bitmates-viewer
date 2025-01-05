@@ -1,0 +1,92 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/40f3f0885a816231feeb.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "Oro's Atoll",
+      "bit_qty": 901,
+      "rarity": "9.01%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://Qmf4Z5uMYifg9J75s5ZUee6zop4DVYVEUH1uKEKQDTM5wk",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5645696571883529",
+  "name": "BitMate #4922",
+  "id": 4922,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Demon",
+      "rare": "3,71%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Balloons",
+      "rare": "2,82%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Snorkel",
+      "rare": "0,54%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 300
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 72
+    },
+    {
+      "trait_type": "Agility",
+      "value": 29
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 57
+    },
+    {
+      "trait_type": "Strength",
+      "value": 65
+    },
+    {
+      "trait_type": "Luck",
+      "value": 33
+    }
+  ],
+  "totalStats": 256
+}

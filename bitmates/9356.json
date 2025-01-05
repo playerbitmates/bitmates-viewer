@@ -1,0 +1,93 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/76f4df1be39ef85fac78.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "secondary"
+    },
+    {
+      "region": "Winter's Respite",
+      "bit_qty": 503,
+      "rarity": "5.03%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmRSJFjTa2Po6aFtw22mr7tuGcERf7znNCPasyNRvb2jFN",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0514384540309023",
+  "name": "BitMate #9356",
+  "id": 9356,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fox",
+      "rare": "4,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Trench Coat",
+      "rare": "2,33%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ribbon",
+      "rare": "4,57%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 105
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 60
+    },
+    {
+      "trait_type": "Agility",
+      "value": 49
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 67
+    },
+    {
+      "trait_type": "Strength",
+      "value": 53
+    },
+    {
+      "trait_type": "Luck",
+      "value": 35
+    }
+  ],
+  "totalStats": 264
+}

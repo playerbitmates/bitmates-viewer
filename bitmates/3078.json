@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/51719a9ab4c8e2689223.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "The Calm",
+      "bit_qty": 344,
+      "rarity": "3.44%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmexnhDSyZBFxa6HLjDYeaCJRMVYaYj3xP7zReYrQzkkAw",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5646861533951961",
+  "name": "BitMate #3078",
+  "id": 3078,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Robot",
+      "rare": "2,59%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Firefighter",
+      "rare": "2,98%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 87
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 24
+    },
+    {
+      "trait_type": "Agility",
+      "value": 50
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 45
+    },
+    {
+      "trait_type": "Strength",
+      "value": 54
+    },
+    {
+      "trait_type": "Luck",
+      "value": 50
+    }
+  ],
+  "totalStats": 223
+}

@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2e6c45e9614a5a94016f.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "The Golden Grave",
+      "bit_qty": 53,
+      "rarity": "0.53%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmT4ERGx6QH3hmBvhCnJYyoTTzYaHK6iv7TEchZ4TzpxHR",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1313712390897983",
+  "name": "BitMate #6741",
+  "id": 6741,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Mermonkey",
+      "rare": "2,97%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pirate Hat",
+      "rare": "1,78%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 109
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 40
+    },
+    {
+      "trait_type": "Agility",
+      "value": 21
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 23
+    },
+    {
+      "trait_type": "Strength",
+      "value": 58
+    },
+    {
+      "trait_type": "Luck",
+      "value": 30
+    }
+  ],
+  "totalStats": 172
+}

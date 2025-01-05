@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/e1b5c354bf3fc469c0cd.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Mount Cinder",
+      "bit_qty": 175,
+      "rarity": "1.75%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmVyHbZEFaF3NdZa4m6Z9WipDDXS6ViKpWiaxd74yuda71",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2865742978296472",
+  "name": "BitMate #4734",
+  "id": 4734,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Skeleton",
+      "rare": "2,00%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Ninja",
+      "rare": "1,54%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 158
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 62
+    },
+    {
+      "trait_type": "Agility",
+      "value": 38
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 60
+    },
+    {
+      "trait_type": "Strength",
+      "value": 13
+    },
+    {
+      "trait_type": "Luck",
+      "value": 53
+    }
+  ],
+  "totalStats": 226
+}

@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/eb5b900512c734a08cad.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    },
+    {
+      "region": "Limbo",
+      "bit_qty": 86,
+      "rarity": "0.86%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmaNWuRYveiYbE5CexctJSZHfEenQhqT4PRJqK2nTTD1Ld",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6412355311894264",
+  "name": "BitMate #6001",
+  "id": 6001,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Ninja",
+      "rare": "1,54%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Potato"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 125
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 22
+    },
+    {
+      "trait_type": "Agility",
+      "value": 13
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 68
+    },
+    {
+      "trait_type": "Strength",
+      "value": 45
+    },
+    {
+      "trait_type": "Luck",
+      "value": 37
+    }
+  ],
+  "totalStats": 185
+}

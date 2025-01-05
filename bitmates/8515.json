@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/be13da2eed1096ca6239.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmV5ZnQ9YVavugEZgQG7fCUAq8hNUr3PXQLkqnKCzawV4J",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3034739662449797",
+  "name": "BitMate #8515",
+  "id": 8515,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Short Cape",
+      "rare": "1,55%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Beanie",
+      "rare": "4,51%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 143
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 68
+    },
+    {
+      "trait_type": "Agility",
+      "value": 94
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 48
+    },
+    {
+      "trait_type": "Strength",
+      "value": 79
+    },
+    {
+      "trait_type": "Luck",
+      "value": 48
+    }
+  ],
+  "totalStats": 337
+}

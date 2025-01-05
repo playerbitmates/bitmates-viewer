@@ -1,0 +1,92 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/b6f578e0e309f9b534ac.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    },
+    {
+      "region": "Limbo",
+      "bit_qty": 86,
+      "rarity": "0.86%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmfUiXqemHsRyymb4AknURV614RcRxb7PACFAudYJ9pSB7",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4951846027081217",
+  "name": "BitMate #293",
+  "id": 293,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Zombie",
+      "rare": "1,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Necktie",
+      "rare": "2,61%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 161
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 65
+    },
+    {
+      "trait_type": "Agility",
+      "value": 61
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 62
+    },
+    {
+      "trait_type": "Strength",
+      "value": 35
+    },
+    {
+      "trait_type": "Luck",
+      "value": 75
+    }
+  ],
+  "totalStats": 298
+}

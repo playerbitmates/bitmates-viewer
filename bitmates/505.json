@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/26903242ed27d79f8316.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Nature's Embrace",
+      "bit_qty": 357,
+      "rarity": "3.57%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmescQ3F8CR7w1krog6E6838U8zhBx1eczh8MBnQqbEHzm",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6088781820548932",
+  "name": "BitMate #505",
+  "id": 505,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Safety Vest",
+      "rare": "2,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 73
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 54
+    },
+    {
+      "trait_type": "Agility",
+      "value": 77
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 33
+    },
+    {
+      "trait_type": "Strength",
+      "value": 61
+    },
+    {
+      "trait_type": "Luck",
+      "value": 50
+    }
+  ],
+  "totalStats": 275
+}

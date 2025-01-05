@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2db203d444aed6694ee5.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    },
+    {
+      "region": "Primus",
+      "bit_qty": 192,
+      "rarity": "1.92%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmaryovJGyQmCnHazQXocHxS3W1WfZRUkg8XqsAdKnT1ZY",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5446340338222428",
+  "name": "BitMate #9414",
+  "id": 9414,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spikes",
+      "rare": "1,55%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 98
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 60
+    },
+    {
+      "trait_type": "Agility",
+      "value": 77
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 66
+    },
+    {
+      "trait_type": "Strength",
+      "value": 29
+    },
+    {
+      "trait_type": "Luck",
+      "value": 36
+    }
+  ],
+  "totalStats": 268
+}

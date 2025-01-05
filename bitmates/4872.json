@@ -1,0 +1,86 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/efbce29f122f414f2779.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmTmvMmJtw4jSCGo6kipd9JGBZQQe73KHW8Jo63XLqEaQW",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9523149426049172",
+  "name": "BitMate #4872",
+  "id": 4872,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Rifle",
+      "rare": "0,42%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Boxing Gloves",
+      "rare": "1,50%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 404
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 40
+    },
+    {
+      "trait_type": "Agility",
+      "value": 80
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 44
+    },
+    {
+      "trait_type": "Strength",
+      "value": 58
+    },
+    {
+      "trait_type": "Luck",
+      "value": 19
+    }
+  ],
+  "totalStats": 241
+}

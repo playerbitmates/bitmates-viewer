@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/e6f2af38708a8375a934.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "Oro's Atoll",
+      "bit_qty": 901,
+      "rarity": "9.01%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmU8kXMtciorpDRdyn4pbPrn3PKnG8kAiHr1ihN3Pg8WKY",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8973174845139165",
+  "name": "BitMate #3325",
+  "id": 3325,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Necktie",
+      "rare": "2,61%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Top Hat",
+      "rare": "1,37%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 137
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 50
+    },
+    {
+      "trait_type": "Agility",
+      "value": 38
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 63
+    },
+    {
+      "trait_type": "Strength",
+      "value": 49
+    },
+    {
+      "trait_type": "Luck",
+      "value": 47
+    }
+  ],
+  "totalStats": 247
+}

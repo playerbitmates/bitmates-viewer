@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/8981e87b9e32330dcb74.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmTL4t3LPyNmHno9qMNJjcPNxqjnuE7k8dMXfxKwmPvRmi",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3689692731133196",
+  "name": "BitMate #9804",
+  "id": 9804,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Boxing Headgear",
+      "rare": "3,47%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Balloons",
+      "rare": "2,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 91
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 56
+    },
+    {
+      "trait_type": "Agility",
+      "value": 54
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 44
+    },
+    {
+      "trait_type": "Strength",
+      "value": 56
+    },
+    {
+      "trait_type": "Luck",
+      "value": 45
+    }
+  ],
+  "totalStats": 255
+}

@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/101fd5c45aa51872cb9c.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmNWqvTKxYqrUJEuQqkoQcCBsd9uTk8HEQJWjLGJzZ3qMo",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7314264211408221",
+  "name": "BitMate #2192",
+  "id": 2192,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Sleeveless Shirt",
+      "rare": "2,64%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 92
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 41
+    },
+    {
+      "trait_type": "Agility",
+      "value": 28
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 51
+    },
+    {
+      "trait_type": "Strength",
+      "value": 37
+    },
+    {
+      "trait_type": "Luck",
+      "value": 32
+    }
+  ],
+  "totalStats": 189
+}

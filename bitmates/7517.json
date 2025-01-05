@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/4fbd557939006ff56c49.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Castaway Cove",
+      "bit_qty": 353,
+      "rarity": "3.53%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmQbc1DwTjWJGDhjQYZg9PQpQMbKx8ikTDrWrMu1H8xB8Q",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0348565220592005",
+  "name": "BitMate #7517",
+  "id": 7517,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Trench Coat",
+      "rare": "2,33%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 158
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 40
+    },
+    {
+      "trait_type": "Agility",
+      "value": 40
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 81
+    },
+    {
+      "trait_type": "Strength",
+      "value": 52
+    },
+    {
+      "trait_type": "Luck",
+      "value": 21
+    }
+  ],
+  "totalStats": 234
+}

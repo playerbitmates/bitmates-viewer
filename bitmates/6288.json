@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/759ad79d6b12f11936cd.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmV8XJyFfCYnKJgnJ1qEAFAECJDypKQxDr9dngnjV9i8U5",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6939513578278564",
+  "name": "BitMate #6288",
+  "id": 6288,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Mermonkey",
+      "rare": "2,97%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ghost",
+      "rare": "0,94%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 178
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 43
+    },
+    {
+      "trait_type": "Agility",
+      "value": 70
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 44
+    },
+    {
+      "trait_type": "Strength",
+      "value": 40
+    },
+    {
+      "trait_type": "Luck",
+      "value": 12
+    }
+  ],
+  "totalStats": 209
+}

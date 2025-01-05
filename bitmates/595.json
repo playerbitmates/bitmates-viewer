@@ -1,0 +1,86 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/deb8c4cad66145342250.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmTeH5vqkeER9Sxg1tRsk2dUh1qQhBDrV5eEGPmq8PscpR",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8031152663971239",
+  "name": "BitMate #595",
+  "id": 595,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Magician",
+      "rare": "0,44%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 370
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 55
+    },
+    {
+      "trait_type": "Agility",
+      "value": 36
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 36
+    },
+    {
+      "trait_type": "Strength",
+      "value": 69
+    },
+    {
+      "trait_type": "Luck",
+      "value": 36
+    }
+  ],
+  "totalStats": 232
+}

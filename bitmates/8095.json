@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2ebbd624b5b980cf2b4a.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmTggJCenQXJKMCyzeEXhhbKeMJCEG6cwoWChX1zvtxvBE",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2094975088919257",
+  "name": "BitMate #8095",
+  "id": 8095,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Fish Bowl",
+      "rare": "1,58%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 92
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 27
+    },
+    {
+      "trait_type": "Agility",
+      "value": 39
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 66
+    },
+    {
+      "trait_type": "Strength",
+      "value": 34
+    },
+    {
+      "trait_type": "Luck",
+      "value": 59
+    }
+  ],
+  "totalStats": 225
+}

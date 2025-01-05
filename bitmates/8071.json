@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/4b466d03524dc02f1343.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Castaway Cove",
+      "bit_qty": 353,
+      "rarity": "3.53%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmT4E7hg9Fy5LZnTdjkLJ5dYVGbuDnmMZ7Lc2Jt9e7AFZJ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0602860577808532",
+  "name": "BitMate #8071",
+  "id": 8071,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Chef Hat",
+      "rare": "0,75%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 161
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 26
+    },
+    {
+      "trait_type": "Agility",
+      "value": 39
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 36
+    },
+    {
+      "trait_type": "Strength",
+      "value": 46
+    },
+    {
+      "trait_type": "Luck",
+      "value": 21
+    }
+  ],
+  "totalStats": 168
+}

@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/1334098ae088d9170b46.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Solaire",
+      "bit_qty": 454,
+      "rarity": "4.54%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmRTtBwGTNiPcX6x622JB4VFosqpCFLzm5quHcN1mogMN8",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6635664194272881",
+  "name": "BitMate #5474",
+  "id": 5474,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Unicorn",
+      "rare": "0,78%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Galaxy"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 179
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 80
+    },
+    {
+      "trait_type": "Agility",
+      "value": 58
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 73
+    },
+    {
+      "trait_type": "Strength",
+      "value": 36
+    },
+    {
+      "trait_type": "Luck",
+      "value": 38
+    }
+  ],
+  "totalStats": 285
+}

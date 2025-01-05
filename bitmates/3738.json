@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/bfe0b66229be2ce64a8c.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "Oro's Atoll",
+      "bit_qty": 901,
+      "rarity": "9.01%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmY8JaSWCb8XxmMJhzU8Vt4MThFC1muaAsWwUzWX8T412Q",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0648525902066003",
+  "name": "BitMate #3738",
+  "id": 3738,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Mermonkey",
+      "rare": "2,97%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Gas Mask",
+      "rare": "2,48%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 114
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 67
+    },
+    {
+      "trait_type": "Agility",
+      "value": 88
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 45
+    },
+    {
+      "trait_type": "Strength",
+      "value": 31
+    },
+    {
+      "trait_type": "Luck",
+      "value": 45
+    }
+  ],
+  "totalStats": 276
+}

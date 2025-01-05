@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a1264e5c4eba24f22dc4.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmYVEBMw7P8t1FeyPR1FYuu5czNKxXN8BxGcuNutZRGFVj",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6562379908090878",
+  "name": "BitMate #2435",
+  "id": 2435,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bra",
+      "rare": "1,96%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 116
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 59
+    },
+    {
+      "trait_type": "Agility",
+      "value": 39
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 60
+    },
+    {
+      "trait_type": "Strength",
+      "value": 14
+    },
+    {
+      "trait_type": "Luck",
+      "value": 72
+    }
+  ],
+  "totalStats": 244
+}

@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/36da4eb4fe0aead34059.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmPmxZU6AHExXdZyk19tHm9bEoyWfToB1XbJKiLXnPerF2",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5096642549528256",
+  "name": "BitMate #3856",
+  "id": 3856,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Short Cape",
+      "rare": "1,55%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 109
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 59
+    },
+    {
+      "trait_type": "Agility",
+      "value": 60
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 59
+    },
+    {
+      "trait_type": "Strength",
+      "value": 45
+    },
+    {
+      "trait_type": "Luck",
+      "value": 50
+    }
+  ],
+  "totalStats": 273
+}

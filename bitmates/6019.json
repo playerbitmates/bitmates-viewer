@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2f496fec71c43e54880a.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Nature's Embrace",
+      "bit_qty": 357,
+      "rarity": "3.57%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmREZLJBdfdHdMg8MNs6Svc3c1SzRtVFXwMwemmSfuu54K",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4462796762861538",
+  "name": "BitMate #6019",
+  "id": 6019,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Beanie",
+      "rare": "4,51%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 79
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 73
+    },
+    {
+      "trait_type": "Agility",
+      "value": 51
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 52
+    },
+    {
+      "trait_type": "Strength",
+      "value": 25
+    },
+    {
+      "trait_type": "Luck",
+      "value": 19
+    }
+  ],
+  "totalStats": 220
+}

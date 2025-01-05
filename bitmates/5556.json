@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/57c6161274f8ab3b93fb.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "Oro's Atoll",
+      "bit_qty": 901,
+      "rarity": "9.01%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmajKts8QE5EngRbTioGAouiv1pqLp2uiEK7mhCJ3SNDgq",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4119288093142676",
+  "name": "BitMate #5556",
+  "id": 5556,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fox",
+      "rare": "4,86%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 58
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 37
+    },
+    {
+      "trait_type": "Agility",
+      "value": 50
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 65
+    },
+    {
+      "trait_type": "Strength",
+      "value": 55
+    },
+    {
+      "trait_type": "Luck",
+      "value": 52
+    }
+  ],
+  "totalStats": 259
+}

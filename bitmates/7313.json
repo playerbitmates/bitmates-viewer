@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/3aa3ede95a8f7fb0224a.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmVqo1wEFeMfz6sm6xdk1sHKiBMu5fn12DH129mXpTYNmU",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8507181976361480",
+  "name": "BitMate #7313",
+  "id": 7313,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Shades",
+      "rare": "0,35%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Timepiece",
+      "rare": "1,27%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 397
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 42
+    },
+    {
+      "trait_type": "Agility",
+      "value": 30
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 67
+    },
+    {
+      "trait_type": "Strength",
+      "value": 28
+    },
+    {
+      "trait_type": "Luck",
+      "value": 49
+    }
+  ],
+  "totalStats": 216
+}

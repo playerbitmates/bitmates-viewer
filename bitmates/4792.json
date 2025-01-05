@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/509acf914d5b3ac46eee.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Interloper's Cavern",
+      "bit_qty": 296,
+      "rarity": "2.96%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmPHoN3oaVfECQPVyBetsFVayHPisvUdtLnbrTi2EBo249",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6644863699987156",
+  "name": "BitMate #4792",
+  "id": 4792,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Robot",
+      "rare": "2,59%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Jester",
+      "rare": "1,23%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Paintbrush",
+      "rare": "1,06%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Dull"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 260
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 44
+    },
+    {
+      "trait_type": "Agility",
+      "value": 60
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 14
+    },
+    {
+      "trait_type": "Strength",
+      "value": 68
+    },
+    {
+      "trait_type": "Luck",
+      "value": 39
+    }
+  ],
+  "totalStats": 225
+}

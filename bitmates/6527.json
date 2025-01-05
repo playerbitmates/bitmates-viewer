@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a5e49c20d8cca63fb9a1.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmV8XbXSoiAhUFTbGrzGgYkVKPt1BZrckmTrF6HGP1f9cK",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2030645820971837",
+  "name": "BitMate #6527",
+  "id": 6527,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cheerleader Uniform",
+      "rare": "2,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Top Hat",
+      "rare": "1,37%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 174
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 42
+    },
+    {
+      "trait_type": "Agility",
+      "value": 46
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 97
+    },
+    {
+      "trait_type": "Strength",
+      "value": 38
+    },
+    {
+      "trait_type": "Luck",
+      "value": 42
+    }
+  ],
+  "totalStats": 265
+}

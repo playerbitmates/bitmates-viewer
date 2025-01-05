@@ -1,0 +1,92 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/355ff18185a2975b7e5c.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    },
+    {
+      "region": "Limbo",
+      "bit_qty": 86,
+      "rarity": "0.86%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmR4mtWHV8Lc2GJnGA3GK7oSB5hAExnvCXGhWrPzGBCJsr",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1532345567020465",
+  "name": "BitMate #8842",
+  "id": 8842,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Imp",
+      "rare": "1,56%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Backpack",
+      "rare": "3,24%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Key",
+      "rare": "1,20%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Charmed"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 276
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 64
+    },
+    {
+      "trait_type": "Agility",
+      "value": 44
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 34
+    },
+    {
+      "trait_type": "Strength",
+      "value": 19
+    },
+    {
+      "trait_type": "Luck",
+      "value": 85
+    }
+  ],
+  "totalStats": 246
+}

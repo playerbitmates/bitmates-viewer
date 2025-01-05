@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/ce5db110cbb9c0a0efdf.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://Qmf1zzP4u2oe5QNoMGmTMwAcZ2Hmhe67ZGTjxjyGv5X3QT",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2739951555315636",
+  "name": "BitMate #9799",
+  "id": 9799,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 35
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 46
+    },
+    {
+      "trait_type": "Agility",
+      "value": 40
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 70
+    },
+    {
+      "trait_type": "Strength",
+      "value": 24
+    },
+    {
+      "trait_type": "Luck",
+      "value": 46
+    }
+  ],
+  "totalStats": 226
+}

@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/15aeaebee9fc29591bc0.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmSyrHNUKWJF5BNtR7fcNFpJRp28e6Yxeor9jZchFqq4YE",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4442291772768028",
+  "name": "BitMate #4465",
+  "id": 4465,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Unicorn",
+      "rare": "0,78%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Long Cape",
+      "rare": "0,78%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Galaxy"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 301
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 88
+    },
+    {
+      "trait_type": "Agility",
+      "value": 38
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 30
+    },
+    {
+      "trait_type": "Strength",
+      "value": 57
+    },
+    {
+      "trait_type": "Luck",
+      "value": 74
+    }
+  ],
+  "totalStats": 287
+}

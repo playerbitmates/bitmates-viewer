@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/6fb342fd0c4e5c85b70b.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmThHYUAY18CCGyxDuU3XsdZFd5agtT1uSiV6kUxwziVhW",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0275414094008843",
+  "name": "BitMate #9654",
+  "id": 9654,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Gorilla",
+      "rare": "4,07%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Sailor Hat",
+      "rare": "2,15%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Galaxy"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 135
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 81
+    },
+    {
+      "trait_type": "Agility",
+      "value": 32
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 38
+    },
+    {
+      "trait_type": "Strength",
+      "value": 68
+    },
+    {
+      "trait_type": "Luck",
+      "value": 70
+    }
+  ],
+  "totalStats": 289
+}

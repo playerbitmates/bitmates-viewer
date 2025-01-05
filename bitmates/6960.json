@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/584e0303d5a0070481fa.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmUN5kc2sfdKNtgg9JRo8qC8YX8xE8UV8zBPbdYP2ZabPK",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6578048411296007",
+  "name": "BitMate #6960",
+  "id": 6960,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Fox",
+      "rare": "4,86%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 113
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 45
+    },
+    {
+      "trait_type": "Agility",
+      "value": 52
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 45
+    },
+    {
+      "trait_type": "Strength",
+      "value": 54
+    },
+    {
+      "trait_type": "Luck",
+      "value": 62
+    }
+  ],
+  "totalStats": 258
+}

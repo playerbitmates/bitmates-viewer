@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2df01b9e1fd3da4ced9e.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Winter's Respite",
+      "bit_qty": 503,
+      "rarity": "5.03%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmWBdA9dYd4UYhFYi25VsNf7BmNDAZpx3H3XkRCzH4gXNs",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8552110032481031",
+  "name": "BitMate #3024",
+  "id": 3024,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Gorilla",
+      "rare": "4,07%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap",
+      "rare": "5,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 64
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 22
+    },
+    {
+      "trait_type": "Agility",
+      "value": 37
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 38
+    },
+    {
+      "trait_type": "Strength",
+      "value": 24
+    },
+    {
+      "trait_type": "Luck",
+      "value": 52
+    }
+  ],
+  "totalStats": 173
+}

@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/9c6b60c03163a62eb183.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmfJjNFEXZMUUSG6oHdj4vbP6gKFVYoJ54QZPeUaHoj55v",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2858875572354826",
+  "name": "BitMate #3187",
+  "id": 3187,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap",
+      "rare": "5,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 45
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 39
+    },
+    {
+      "trait_type": "Agility",
+      "value": 58
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 20
+    },
+    {
+      "trait_type": "Strength",
+      "value": 45
+    },
+    {
+      "trait_type": "Luck",
+      "value": 35
+    }
+  ],
+  "totalStats": 197
+}

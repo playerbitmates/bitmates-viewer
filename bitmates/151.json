@@ -1,0 +1,92 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/70736594af7e9f1ca45e.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "Oro's Atoll",
+      "bit_qty": 901,
+      "rarity": "9.01%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmYX3cCfCwxcmboDpche6nF6PgqkoyvbqWMF2fZgmHS2Pg",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6535124776034111",
+  "name": "BitMate #151",
+  "id": 151,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Cephalopod",
+      "rare": "2,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cheerleader Uniform",
+      "rare": "2,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Masquerade",
+      "rare": "0,97%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 229
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 57
+    },
+    {
+      "trait_type": "Agility",
+      "value": 47
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 44
+    },
+    {
+      "trait_type": "Strength",
+      "value": 42
+    },
+    {
+      "trait_type": "Luck",
+      "value": 44
+    }
+  ],
+  "totalStats": 234
+}

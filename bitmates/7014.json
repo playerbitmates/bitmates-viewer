@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/4b68aa6fd3a62ecb6a6e.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmPKExVAZC45jntEr8CEwZrFYhdoaXRTbMzTDjgMhSkoyA",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6705173685766177",
+  "name": "BitMate #7014",
+  "id": 7014,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 60
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 54
+    },
+    {
+      "trait_type": "Agility",
+      "value": 28
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 65
+    },
+    {
+      "trait_type": "Strength",
+      "value": 61
+    },
+    {
+      "trait_type": "Luck",
+      "value": 41
+    }
+  ],
+  "totalStats": 249
+}

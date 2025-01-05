@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/d49b0b648b1bb43b311b.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmSijhuZAUCdjYV6dXTsGgeTNp1gaz6Lgs5ZKwpmDjbkaK",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4893330697849134",
+  "name": "BitMate #2925",
+  "id": 2925,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap",
+      "rare": "5,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 43
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 44
+    },
+    {
+      "trait_type": "Agility",
+      "value": 41
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 30
+    },
+    {
+      "trait_type": "Strength",
+      "value": 73
+    },
+    {
+      "trait_type": "Luck",
+      "value": 41
+    }
+  ],
+  "totalStats": 229
+}

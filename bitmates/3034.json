@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/777850ec5dd7643a5500.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Nature's Embrace",
+      "bit_qty": 357,
+      "rarity": "3.57%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmaLxNZrbkjkuaLeY4tvkm2oYk17hHcuNu5FFfSXhoGCYn",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5456245282274477",
+  "name": "BitMate #3034",
+  "id": 3034,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Backpack",
+      "rare": "3,24%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Firefighter",
+      "rare": "2,98%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smooth"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 117
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 15
+    },
+    {
+      "trait_type": "Agility",
+      "value": 40
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 50
+    },
+    {
+      "trait_type": "Strength",
+      "value": 77
+    },
+    {
+      "trait_type": "Luck",
+      "value": 49
+    }
+  ],
+  "totalStats": 231
+}

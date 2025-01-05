@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/8e127cba0e7b5ace0be0.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Winter's Respite",
+      "bit_qty": 503,
+      "rarity": "5.03%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmYfcZTSj1wPGPZ5A1gHFdW9fsqB4Uc2KZBU3Rbk7qD3fj",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2668134889210072",
+  "name": "BitMate #8626",
+  "id": 8626,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ruffled Shirt",
+      "rare": "2,06%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Burly"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 154
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 24
+    },
+    {
+      "trait_type": "Agility",
+      "value": 42
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 84
+    },
+    {
+      "trait_type": "Strength",
+      "value": 90
+    },
+    {
+      "trait_type": "Luck",
+      "value": 7
+    }
+  ],
+  "totalStats": 247
+}

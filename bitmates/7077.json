@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/c2b3441d8ff38f4bb7f9.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmSD2SuoTLmacqg9xLqeeELrZb9tMzfaHkTyoCMEBruFWo",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1465711473132576",
+  "name": "BitMate #7077",
+  "id": 7077,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Chimp",
+      "rare": "6,57%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cheerleader Uniform",
+      "rare": "2,08%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 84
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 70
+    },
+    {
+      "trait_type": "Agility",
+      "value": 30
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 20
+    },
+    {
+      "trait_type": "Strength",
+      "value": 45
+    },
+    {
+      "trait_type": "Luck",
+      "value": 68
+    }
+  ],
+  "totalStats": 233
+}

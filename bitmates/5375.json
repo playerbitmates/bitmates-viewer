@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/8b4504200ad254345dae.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmbtK3DBTCG77PHmQHeqFD6a48bELLzJBVLDrRCMCNNQ5e",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9861792492160644",
+  "name": "BitMate #5375",
+  "id": 5375,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Trench Coat",
+      "rare": "2,33%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 104
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 31
+    },
+    {
+      "trait_type": "Agility",
+      "value": 35
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 54
+    },
+    {
+      "trait_type": "Strength",
+      "value": 42
+    },
+    {
+      "trait_type": "Luck",
+      "value": 48
+    }
+  ],
+  "totalStats": 210
+}

@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/6a059ac50cf1acef758b.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmaxoKUjuVvMzwXCtQRw2Xsee8XveuvRxd1RTXWxit2JB7",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3062994986715219",
+  "name": "BitMate #428",
+  "id": 428,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Headphones",
+      "rare": "3,09%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Potato"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 85
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 41
+    },
+    {
+      "trait_type": "Agility",
+      "value": 13
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 40
+    },
+    {
+      "trait_type": "Strength",
+      "value": 35
+    },
+    {
+      "trait_type": "Luck",
+      "value": 48
+    }
+  ],
+  "totalStats": 177
+}

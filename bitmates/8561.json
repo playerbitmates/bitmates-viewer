@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/16a310e62f0b51a78e61.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmPDahZzvWfHbpdpMvDqnnd5CGN8P96GiUKnwaWrm2pXyz",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5595637043771426",
+  "name": "BitMate #8561",
+  "id": 8561,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Zombie",
+      "rare": "1,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Trench Coat",
+      "rare": "2,33%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 113
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 63
+    },
+    {
+      "trait_type": "Agility",
+      "value": 66
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 48
+    },
+    {
+      "trait_type": "Strength",
+      "value": 55
+    },
+    {
+      "trait_type": "Luck",
+      "value": 42
+    }
+  ],
+  "totalStats": 274
+}

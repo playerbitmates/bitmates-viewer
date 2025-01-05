@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/103b0c4af91f1d504729.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmcQviz6DS2167zTBQ4aZxpWRNAiq416AP7iTytet4H7D1",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7454904575820447",
+  "name": "BitMate #2330",
+  "id": 2330,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Robot",
+      "rare": "2,59%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Safety Vest",
+      "rare": "2,40%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Farmer",
+      "rare": "5,00%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 120
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 64
+    },
+    {
+      "trait_type": "Agility",
+      "value": 52
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 50
+    },
+    {
+      "trait_type": "Strength",
+      "value": 33
+    },
+    {
+      "trait_type": "Luck",
+      "value": 76
+    }
+  ],
+  "totalStats": 275
+}

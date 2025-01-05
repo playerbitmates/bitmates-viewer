@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/1596ca1fc55d02d4d6c7.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmWiAfiZN1NaMD68D6Rf3WamqnSJXs4k81cuo4EwAdwH4R",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4692816958940811",
+  "name": "BitMate #5917",
+  "id": 5917,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Gorilla",
+      "rare": "4,07%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bra",
+      "rare": "1,96%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Jester",
+      "rare": "1,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 198
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 45
+    },
+    {
+      "trait_type": "Agility",
+      "value": 57
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 80
+    },
+    {
+      "trait_type": "Strength",
+      "value": 67
+    },
+    {
+      "trait_type": "Luck",
+      "value": 46
+    }
+  ],
+  "totalStats": 295
+}

@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/0e1a34372ae1b85b3343.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Winter's Respite",
+      "bit_qty": 503,
+      "rarity": "5.03%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmSnpmXLJpLo3tEYJ8GZjBNcwag9TpbRMkNV8aWsqmg7aX",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3365830826635032",
+  "name": "BitMate #8856",
+  "id": 8856,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smooth"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 118
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 3
+    },
+    {
+      "trait_type": "Agility",
+      "value": 41
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 53
+    },
+    {
+      "trait_type": "Strength",
+      "value": 63
+    },
+    {
+      "trait_type": "Luck",
+      "value": 29
+    }
+  ],
+  "totalStats": 189
+}

@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/f82edb827a39428eeb44.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmYEyQEziDZVuij5r61F8yQtty4VZ27iyFkmFhQ2L5wdv9",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7785372054257893",
+  "name": "BitMate #9276",
+  "id": 9276,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Imp",
+      "rare": "1,56%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Viking",
+      "rare": "0,46%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smooth"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 208
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 15
+    },
+    {
+      "trait_type": "Agility",
+      "value": 55
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 39
+    },
+    {
+      "trait_type": "Strength",
+      "value": 57
+    },
+    {
+      "trait_type": "Luck",
+      "value": 56
+    }
+  ],
+  "totalStats": 222
+}

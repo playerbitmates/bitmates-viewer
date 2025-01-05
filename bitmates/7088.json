@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/f8b7ff05c42f9a146b99.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmVU3tUhSth2Y7Mcqa1zucnYL9KsiMHFJb8DJfjhQVrQdV",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1265643651352666",
+  "name": "BitMate #7088",
+  "id": 7088,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bunny",
+      "rare": "1,31%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Hypno Glasses",
+      "rare": "0,27%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ruffled Shirt",
+      "rare": "2,06%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 511
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 65
+    },
+    {
+      "trait_type": "Agility",
+      "value": 40
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 52
+    },
+    {
+      "trait_type": "Strength",
+      "value": 41
+    },
+    {
+      "trait_type": "Luck",
+      "value": 57
+    }
+  ],
+  "totalStats": 255
+}

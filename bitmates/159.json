@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/c6c0822a5b67ab4606c2.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Braveheart Barraks",
+      "bit_qty": 76,
+      "rarity": "0.76%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmX4fwMrtVQh5e4wpp5s9fNWSK31V1Fvxj4N8h9fSBuHD7",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6002438013190678",
+  "name": "BitMate #159",
+  "id": 159,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Gas Mask",
+      "rare": "2,48%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Dull"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 98
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 35
+    },
+    {
+      "trait_type": "Agility",
+      "value": 41
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 10
+    },
+    {
+      "trait_type": "Strength",
+      "value": 61
+    },
+    {
+      "trait_type": "Luck",
+      "value": 53
+    }
+  ],
+  "totalStats": 200
+}

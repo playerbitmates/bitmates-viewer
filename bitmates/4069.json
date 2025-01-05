@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a0f2d6a5dff3eb99cbc3.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "The Golden Grave",
+      "bit_qty": 53,
+      "rarity": "0.53%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmRrhpoAnDWqcGpXaLxBcTKScYTojJnNWkS3EKEBkyjZC8",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8831067566800825",
+  "name": "BitMate #4069",
+  "id": 4069,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fish",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 103
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 50
+    },
+    {
+      "trait_type": "Agility",
+      "value": 56
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 59
+    },
+    {
+      "trait_type": "Strength",
+      "value": 64
+    },
+    {
+      "trait_type": "Luck",
+      "value": 17
+    }
+  ],
+  "totalStats": 246
+}

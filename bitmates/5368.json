@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/641290dc8b0e5faad7f3.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Braveheart Barraks",
+      "bit_qty": 76,
+      "rarity": "0.76%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmeveTBPUgiZ2KrTX9UCA3LXaMRfbW2YzqUJihgwmQPnTj",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6214815534310569",
+  "name": "BitMate #5368",
+  "id": 5368,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Robot",
+      "rare": "2,59%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ruffled Shirt",
+      "rare": "2,06%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Jester",
+      "rare": "1,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 209
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 60
+    },
+    {
+      "trait_type": "Agility",
+      "value": 87
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 47
+    },
+    {
+      "trait_type": "Strength",
+      "value": 40
+    },
+    {
+      "trait_type": "Luck",
+      "value": 30
+    }
+  ],
+  "totalStats": 264
+}

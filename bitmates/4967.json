@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/c290b097e38bb49ddc15.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Interloper's Cavern",
+      "bit_qty": 296,
+      "rarity": "2.96%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmcM7wx2AzrQ1Z1wY8ifpahFLGrEXxdvkYhDt6tyXZ7Moy",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7791902314779318",
+  "name": "BitMate #4967",
+  "id": 4967,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Zombie",
+      "rare": "1,86%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Sailor Hat",
+      "rare": "2,15%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 138
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 57
+    },
+    {
+      "trait_type": "Agility",
+      "value": 68
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 53
+    },
+    {
+      "trait_type": "Strength",
+      "value": 52
+    },
+    {
+      "trait_type": "Luck",
+      "value": 5
+    }
+  ],
+  "totalStats": 235
+}

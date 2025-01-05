@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/deed9c174b42ce22d711.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmSqiHc9bTDxkdseeg3ZutPZhiiedUVesYJTgQdDTHaYN7",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6181996952133504",
+  "name": "BitMate #7353",
+  "id": 7353,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Cyborg",
+      "rare": "1,92%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 79
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 47
+    },
+    {
+      "trait_type": "Agility",
+      "value": 70
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 22
+    },
+    {
+      "trait_type": "Strength",
+      "value": 24
+    },
+    {
+      "trait_type": "Luck",
+      "value": 38
+    }
+  ],
+  "totalStats": 201
+}

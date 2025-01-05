@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/f8c843ede84af7bae5d4.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmS8iMBvpnTjyF9QFwj3P3vPQwAx69GvLGxwpQWuNHAszy",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5001579445248765",
+  "name": "BitMate #1485",
+  "id": 1485,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ribbon",
+      "rare": "4,57%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 53
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 66
+    },
+    {
+      "trait_type": "Agility",
+      "value": 64
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 38
+    },
+    {
+      "trait_type": "Strength",
+      "value": 48
+    },
+    {
+      "trait_type": "Luck",
+      "value": 48
+    }
+  ],
+  "totalStats": 264
+}

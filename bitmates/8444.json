@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/335f3be8fdeae27a8c0f.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Braveheart Barraks",
+      "bit_qty": 76,
+      "rarity": "0.76%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmeL2jifP3LN6MRHgD35WgviBe4wkQBjfhpcwF9PZeiKPF",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0839876784436668",
+  "name": "BitMate #8444",
+  "id": 8444,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 41
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 34
+    },
+    {
+      "trait_type": "Agility",
+      "value": 23
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 62
+    },
+    {
+      "trait_type": "Strength",
+      "value": 21
+    },
+    {
+      "trait_type": "Luck",
+      "value": 29
+    }
+  ],
+  "totalStats": 169
+}

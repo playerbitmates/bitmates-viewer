@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/7de2bd6340b72dd81ef1.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmaRyhAthgGN7cttDDto4fEhjqhv6hjgSwbyjyBe7VT5BP",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9408816619316168",
+  "name": "BitMate #1237",
+  "id": 1237,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Cephalopod",
+      "rare": "2,86%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Paintbrush",
+      "rare": "1,06%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 193
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 58
+    },
+    {
+      "trait_type": "Agility",
+      "value": 61
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 57
+    },
+    {
+      "trait_type": "Strength",
+      "value": 10
+    },
+    {
+      "trait_type": "Luck",
+      "value": 61
+    }
+  ],
+  "totalStats": 247
+}

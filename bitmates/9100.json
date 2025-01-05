@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/5404c8912cad130a714b.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmSorMGph3H1fkNu97arN698Ybqj491da3eZibbvXsR6dQ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5112968230432162",
+  "name": "BitMate #9100",
+  "id": 9100,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Firesuit",
+      "rare": "2,31%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 131
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 39
+    },
+    {
+      "trait_type": "Agility",
+      "value": 87
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 64
+    },
+    {
+      "trait_type": "Strength",
+      "value": 65
+    },
+    {
+      "trait_type": "Luck",
+      "value": 28
+    }
+  ],
+  "totalStats": 283
+}

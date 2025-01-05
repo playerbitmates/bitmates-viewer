@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/bf589942a584a9d2592b.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    },
+    {
+      "region": "Limbo",
+      "bit_qty": 86,
+      "rarity": "0.86%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmfYP7qBcrYrtyJdkdtxVxDhj7RPqzVxEDvegBbRMjyDW2",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6964627354775266",
+  "name": "BitMate #9013",
+  "id": 9013,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Viking",
+      "rare": "0,46%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Potato"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 195
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 39
+    },
+    {
+      "trait_type": "Agility",
+      "value": 17
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 25
+    },
+    {
+      "trait_type": "Strength",
+      "value": 13
+    },
+    {
+      "trait_type": "Luck",
+      "value": 42
+    }
+  ],
+  "totalStats": 136
+}

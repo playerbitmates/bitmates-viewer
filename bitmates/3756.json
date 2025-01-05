@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/f9276ea48e03234a841e.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmRDJsrSbKT8HZggaVr8CRzSTctDsESHm7RS9SDp1jKiAz",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4479302539049290",
+  "name": "BitMate #3756",
+  "id": 3756,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Cyborg",
+      "rare": "1,92%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Overalls",
+      "rare": "0,82%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Beanie",
+      "rare": "4,51%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 216
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 41
+    },
+    {
+      "trait_type": "Agility",
+      "value": 38
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 70
+    },
+    {
+      "trait_type": "Strength",
+      "value": 61
+    },
+    {
+      "trait_type": "Luck",
+      "value": 54
+    }
+  ],
+  "totalStats": 264
+}

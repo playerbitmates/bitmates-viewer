@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/17a3df379d80bac801db.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmNRFAATsgNXdJYYdEjVKBZh3j4FMYMzUVLz1Byx3LqHYc",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0427721181319511",
+  "name": "BitMate #614",
+  "id": 614,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Orangutan",
+      "rare": "2,65%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cat Ears",
+      "rare": "2,20%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 100
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 53
+    },
+    {
+      "trait_type": "Agility",
+      "value": 33
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 51
+    },
+    {
+      "trait_type": "Strength",
+      "value": 36
+    },
+    {
+      "trait_type": "Luck",
+      "value": 54
+    }
+  ],
+  "totalStats": 227
+}

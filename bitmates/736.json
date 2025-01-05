@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/6a7399893e0beeca8807.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmbdS4yr4EpcavDQcM1rWKUWk2ZwBVMA49Z26Wz5e5xThw",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8947368626325174",
+  "name": "BitMate #736",
+  "id": 736,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Gargoyle Wings",
+      "rare": "0,92%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Fish",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Headband",
+      "rare": "1,11%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 266
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 72
+    },
+    {
+      "trait_type": "Agility",
+      "value": 47
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 38
+    },
+    {
+      "trait_type": "Strength",
+      "value": 26
+    },
+    {
+      "trait_type": "Luck",
+      "value": 24
+    }
+  ],
+  "totalStats": 207
+}

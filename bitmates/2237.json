@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/cc76d7280a0782453f6b.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmW9mkakWjtFPeLyJEyVWVV5QeEqxxAt7LkKsGApTyeEMK",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "7123055778976652",
+  "name": "BitMate #2237",
+  "id": 2237,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Orangutan",
+      "rare": "2,65%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Clown Hat",
+      "rare": "4,76%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 96
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 26
+    },
+    {
+      "trait_type": "Agility",
+      "value": 70
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 41
+    },
+    {
+      "trait_type": "Strength",
+      "value": 71
+    },
+    {
+      "trait_type": "Luck",
+      "value": 70
+    }
+  ],
+  "totalStats": 278
+}

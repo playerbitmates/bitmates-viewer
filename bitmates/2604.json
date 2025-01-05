@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/1c8353044176a246a2a0.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    },
+    {
+      "region": "??????",
+      "bit_qty": 98,
+      "rarity": "0.98%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmejBdXAimBok4ZDsCTd1zXSkxGrRxjvrY6Kj9FQfyb1Ft",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8211953175268041",
+  "name": "BitMate #2604",
+  "id": 2604,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Robot",
+      "rare": "2,59%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 65
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 63
+    },
+    {
+      "trait_type": "Agility",
+      "value": 71
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 46
+    },
+    {
+      "trait_type": "Strength",
+      "value": 27
+    },
+    {
+      "trait_type": "Luck",
+      "value": 26
+    }
+  ],
+  "totalStats": 233
+}

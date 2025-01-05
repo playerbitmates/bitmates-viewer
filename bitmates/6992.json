@@ -1,0 +1,86 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/e99c5befd411e32d2d3d.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmRnTxpWBHLhmDNMYoJ1JyBf6FJu1A3b3r6Z6wpk4cGnw2",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9105950516359226",
+  "name": "BitMate #6992",
+  "id": 6992,
+  "characteristics": [
+    {
+      "trait_type": "Tail",
+      "value": "Leaf",
+      "rare": "0,22%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Jester",
+      "rare": "1,23%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 654
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 44
+    },
+    {
+      "trait_type": "Agility",
+      "value": 42
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 44
+    },
+    {
+      "trait_type": "Strength",
+      "value": 60
+    },
+    {
+      "trait_type": "Luck",
+      "value": 64
+    }
+  ],
+  "totalStats": 254
+}

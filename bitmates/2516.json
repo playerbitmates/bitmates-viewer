@@ -1,0 +1,77 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/d2c55fe0b2b2396c023e.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Brightwood",
+      "bit_qty": 89,
+      "rarity": "0.89%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmSxpzTXAf3xSutai5f1LjLpc37Xq3o4gRddQSoZveNfcL",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2818452904193278",
+  "name": "BitMate #2516",
+  "id": 2516,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 38
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 58
+    },
+    {
+      "trait_type": "Agility",
+      "value": 38
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 20
+    },
+    {
+      "trait_type": "Strength",
+      "value": 33
+    },
+    {
+      "trait_type": "Luck",
+      "value": 51
+    }
+  ],
+  "totalStats": 200
+}

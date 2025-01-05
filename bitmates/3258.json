@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/50f27a8ef7ee7f13fe82.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmdXQeA5nRm2ivcwRESiVrJ1gPLAJHV5KWpJLhuRmHZhGC",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9768941652377632",
+  "name": "BitMate #3258",
+  "id": 3258,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fox",
+      "rare": "4,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pirate Coat",
+      "rare": "0,58%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 210
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 76
+    },
+    {
+      "trait_type": "Agility",
+      "value": 44
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 35
+    },
+    {
+      "trait_type": "Strength",
+      "value": 46
+    },
+    {
+      "trait_type": "Luck",
+      "value": 59
+    }
+  ],
+  "totalStats": 260
+}

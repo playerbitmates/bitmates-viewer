@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/394fa36ad3f250c6322b.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Lunora",
+      "bit_qty": 169,
+      "rarity": "1.69%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://Qmb52qUUotMkikAax64CDtwxa1WBidxv8WkoTvSgUXro4B",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6997766414463784",
+  "name": "BitMate #3920",
+  "id": 3920,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Katana",
+      "rare": "0,45%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 270
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 31
+    },
+    {
+      "trait_type": "Agility",
+      "value": 23
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 27
+    },
+    {
+      "trait_type": "Strength",
+      "value": 53
+    },
+    {
+      "trait_type": "Luck",
+      "value": 32
+    }
+  ],
+  "totalStats": 166
+}

@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/1ec92db0924a016c87b8.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Brightwood",
+      "bit_qty": 89,
+      "rarity": "0.89%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmeLf97MZFNChKzNFVmfU8m4MLZNgr8YPSbfkRaAkHfcY9",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1247616429778297",
+  "name": "BitMate #2393",
+  "id": 2393,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ghost",
+      "rare": "0,94%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 157
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 27
+    },
+    {
+      "trait_type": "Agility",
+      "value": 82
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 58
+    },
+    {
+      "trait_type": "Strength",
+      "value": 45
+    },
+    {
+      "trait_type": "Luck",
+      "value": 35
+    }
+  ],
+  "totalStats": 247
+}

@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/3dd69c58022456011b9a.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    },
+    {
+      "region": "Oro's Atoll",
+      "bit_qty": 901,
+      "rarity": "9.01%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://Qmec7A1sh5zMWtwgkG993qjyebJymkqZyGYMs7z8bdf4qZ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5606637799254242",
+  "name": "BitMate #7189",
+  "id": 7189,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fish",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spikes",
+      "rare": "1,55%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Dull"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 157
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 72
+    },
+    {
+      "trait_type": "Agility",
+      "value": 68
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 17
+    },
+    {
+      "trait_type": "Strength",
+      "value": 67
+    },
+    {
+      "trait_type": "Luck",
+      "value": 65
+    }
+  ],
+  "totalStats": 289
+}

@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/73158791a585f86bbe81.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmVKCm1gADPUc4a9sWcmSM1VsM4Uf7t4KJ9U2ftijKFMJY",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0974151662205839",
+  "name": "BitMate #3855",
+  "id": 3855,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Short Cape",
+      "rare": "1,55%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cat Ears",
+      "rare": "2,20%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 145
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 40
+    },
+    {
+      "trait_type": "Agility",
+      "value": 68
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 71
+    },
+    {
+      "trait_type": "Strength",
+      "value": 76
+    },
+    {
+      "trait_type": "Luck",
+      "value": 40
+    }
+  ],
+  "totalStats": 295
+}

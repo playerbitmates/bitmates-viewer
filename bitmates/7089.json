@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/f2965750d84da17b8cfb.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmVqT2wVRypxnPebt6bJUitpoDUELvNjwUm7HveqGKGahv",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0184057128603769",
+  "name": "BitMate #7089",
+  "id": 7089,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Cyborg",
+      "rare": "1,92%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Safety Vest",
+      "rare": "2,40%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Plant",
+      "rare": "2,32%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 159
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 71
+    },
+    {
+      "trait_type": "Agility",
+      "value": 37
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 33
+    },
+    {
+      "trait_type": "Strength",
+      "value": 45
+    },
+    {
+      "trait_type": "Luck",
+      "value": 37
+    }
+  ],
+  "totalStats": 223
+}

@@ -1,0 +1,92 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/d5dc8ec413a7a288201d.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "The Calm",
+      "bit_qty": 344,
+      "rarity": "3.44%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmcbdsVuUNRRk3FpFSNMZEDt2neJAv3BKw8ga84AZiNQDL",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8262740396881323",
+  "name": "BitMate #6355",
+  "id": 6355,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Fox",
+      "rare": "4,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cheerleader Uniform",
+      "rare": "2,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Flower",
+      "rare": "1,71%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 173
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 76
+    },
+    {
+      "trait_type": "Agility",
+      "value": 71
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 72
+    },
+    {
+      "trait_type": "Strength",
+      "value": 53
+    },
+    {
+      "trait_type": "Luck",
+      "value": 40
+    }
+  ],
+  "totalStats": 312
+}

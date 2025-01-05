@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/ff40322fee94c168e6a4.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmXkrGi4qhYLd2k7JTEUNJ7XwJA9dt2YA3Jiqrjjv9Qd9y",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6704950535134782",
+  "name": "BitMate #9249",
+  "id": 9249,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cheerleader Uniform",
+      "rare": "2,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Headphones",
+      "rare": "3,09%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 117
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 32
+    },
+    {
+      "trait_type": "Agility",
+      "value": 69
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 42
+    },
+    {
+      "trait_type": "Strength",
+      "value": 71
+    },
+    {
+      "trait_type": "Luck",
+      "value": 37
+    }
+  ],
+  "totalStats": 251
+}

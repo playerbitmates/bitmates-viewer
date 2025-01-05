@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/312a64d744487ecf52ca.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmbxrfkrxrypQHueTwU1EaMtvksgGQBJuwa1YLLEgpzgWC",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9116078598226056",
+  "name": "BitMate #162",
+  "id": 162,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Zombie",
+      "rare": "1,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Mime Shirt",
+      "rare": "2,55%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mustache",
+      "rare": "0,35%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 419
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 51
+    },
+    {
+      "trait_type": "Agility",
+      "value": 88
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 47
+    },
+    {
+      "trait_type": "Strength",
+      "value": 76
+    },
+    {
+      "trait_type": "Luck",
+      "value": 21
+    }
+  ],
+  "totalStats": 283
+}

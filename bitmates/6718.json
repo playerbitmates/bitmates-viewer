@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/55dacf81901c8eaa87e2.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmU9Q3pm47aEVEzqAVwGmYHsENv5ETSv9dCQsfbbmHurtC",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4513429008544332",
+  "name": "BitMate #6718",
+  "id": 6718,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Robot",
+      "rare": "2,59%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ribbon",
+      "rare": "4,57%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 81
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 35
+    },
+    {
+      "trait_type": "Agility",
+      "value": 34
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 23
+    },
+    {
+      "trait_type": "Strength",
+      "value": 22
+    },
+    {
+      "trait_type": "Luck",
+      "value": 53
+    }
+  ],
+  "totalStats": 167
+}

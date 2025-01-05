@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/f9949dbf5e20e05f3b94.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Castaway Cove",
+      "bit_qty": 353,
+      "rarity": "3.53%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://Qmc2Uh8bxuhdUMs7A74jfyNVBGsBeMk8sHntRjFmQa9HXP",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0538343713377986",
+  "name": "BitMate #8193",
+  "id": 8193,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Imp",
+      "rare": "1,56%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap",
+      "rare": "5,40%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 105
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 68
+    },
+    {
+      "trait_type": "Agility",
+      "value": 26
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 28
+    },
+    {
+      "trait_type": "Strength",
+      "value": 68
+    },
+    {
+      "trait_type": "Luck",
+      "value": 34
+    }
+  ],
+  "totalStats": 224
+}

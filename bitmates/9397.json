@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/edada94e1de5b0942334.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmNQ3cpwvJTpWcswAXhsAGHDuoFUwBwiZte9LGz1JUv3wf",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3635975192382383",
+  "name": "BitMate #9397",
+  "id": 9397,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Beanie",
+      "rare": "4,51%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smooth"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 75
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 1
+    },
+    {
+      "trait_type": "Agility",
+      "value": 71
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 63
+    },
+    {
+      "trait_type": "Strength",
+      "value": 45
+    },
+    {
+      "trait_type": "Luck",
+      "value": 57
+    }
+  ],
+  "totalStats": 237
+}

@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/a7f483b287f48e8c9c0e.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmTd1n4VjVTZaFSYZNZ3gmZ13vgQArgKk3Qtr1r3RHnEzT",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5182674555690034",
+  "name": "BitMate #5558",
+  "id": 5558,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ribbon",
+      "rare": "4,57%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Monocle",
+      "rare": "0,43%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 310
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 52
+    },
+    {
+      "trait_type": "Agility",
+      "value": 39
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 74
+    },
+    {
+      "trait_type": "Strength",
+      "value": 39
+    },
+    {
+      "trait_type": "Luck",
+      "value": 9
+    }
+  ],
+  "totalStats": 213
+}

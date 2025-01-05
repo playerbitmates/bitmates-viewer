@@ -1,0 +1,80 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/01d9673f97b72e61cdc2.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmUzw1WnKAB56CUvpuJYrptQ7Qbz7tdJQYJvfHQRVP2Zjz",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9820656858884142",
+  "name": "BitMate #8785",
+  "id": 8785,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Squirrel",
+      "rare": "6,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Halo",
+      "rare": "0,14%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Biker Gloves"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Charmed"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 843
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 46
+    },
+    {
+      "trait_type": "Agility",
+      "value": 58
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 66
+    },
+    {
+      "trait_type": "Strength",
+      "value": 33
+    },
+    {
+      "trait_type": "Luck",
+      "value": 90
+    }
+  ],
+  "totalStats": 293
+}

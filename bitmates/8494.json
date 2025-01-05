@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/ec174bcc06daf756292e.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Nature's Embrace",
+      "bit_qty": 357,
+      "rarity": "3.57%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmW6TwKuirK4X5yiEidCqMpBT2meSYh135pDXUbaUMcpBF",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5518859996817134",
+  "name": "BitMate #8494",
+  "id": 8494,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Orangutan",
+      "rare": "2,65%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ghost",
+      "rare": "0,94%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 189
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 77
+    },
+    {
+      "trait_type": "Agility",
+      "value": 42
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 84
+    },
+    {
+      "trait_type": "Strength",
+      "value": 22
+    },
+    {
+      "trait_type": "Luck",
+      "value": 25
+    }
+  ],
+  "totalStats": 250
+}

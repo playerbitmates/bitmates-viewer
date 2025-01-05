@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/e42b84ca02a80cca8d07.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Vitacrypt",
+      "bit_qty": 263,
+      "rarity": "2.63%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmSTff29EtSGF3ZhV924JvPULcQMCA83Lc9m9BGC9Vnk4f",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1863221000254631",
+  "name": "BitMate #8157",
+  "id": 8157,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Skeleton",
+      "rare": "2,00%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ghost",
+      "rare": "0,94%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Potato"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 203
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 74
+    },
+    {
+      "trait_type": "Agility",
+      "value": 18
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 67
+    },
+    {
+      "trait_type": "Strength",
+      "value": 68
+    },
+    {
+      "trait_type": "Luck",
+      "value": 22
+    }
+  ],
+  "totalStats": 249
+}

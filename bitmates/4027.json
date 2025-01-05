@@ -1,0 +1,87 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/6dde98ad73a20e2a0715.png",
+  "region": [
+    {
+      "region": "Sanguine Point",
+      "bit_qty": 761,
+      "rarity": "7.61%",
+      "type": "main"
+    },
+    {
+      "region": "Interloper's Cavern",
+      "bit_qty": 296,
+      "rarity": "2.96%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmbnjjvHGG4fBk9kH2Qe1nnR4GH1rHZYynQScb65xjZAHZ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1124000223965266",
+  "name": "BitMate #4027",
+  "id": 4027,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Overalls",
+      "rare": "0,82%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Viking",
+      "rare": "0,46%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 254
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 45
+    },
+    {
+      "trait_type": "Agility",
+      "value": 31
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 62
+    },
+    {
+      "trait_type": "Strength",
+      "value": 50
+    },
+    {
+      "trait_type": "Luck",
+      "value": 71
+    }
+  ],
+  "totalStats": 259
+}

@@ -1,0 +1,86 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/591899943a4f692f7657.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmdtumPABCYKJ8SWb3HM6vUNUhE6RLWLHSZNB6e6bzngZY",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8247246617608872",
+  "name": "BitMate #5084",
+  "id": 5084,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fish",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bandana",
+      "rare": "2,61%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cat Ears",
+      "rare": "2,20%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Boxing Gloves",
+      "rare": "1,50%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 228
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 38
+    },
+    {
+      "trait_type": "Agility",
+      "value": 75
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 36
+    },
+    {
+      "trait_type": "Strength",
+      "value": 39
+    },
+    {
+      "trait_type": "Luck",
+      "value": 49
+    }
+  ],
+  "totalStats": 237
+}

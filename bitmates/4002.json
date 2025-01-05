@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/0e6548b0b126df5284d4.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://Qmcytr9h4CsjCGmJi8dX4eBQcXA8ifyADZEQDptrHXFwFV",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8852052787860665",
+  "name": "BitMate #4002",
+  "id": 4002,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Gorilla",
+      "rare": "4,07%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Beanie",
+      "rare": "4,51%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 65
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 33
+    },
+    {
+      "trait_type": "Agility",
+      "value": 47
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 29
+    },
+    {
+      "trait_type": "Strength",
+      "value": 42
+    },
+    {
+      "trait_type": "Luck",
+      "value": 38
+    }
+  ],
+  "totalStats": 189
+}

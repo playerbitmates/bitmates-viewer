@@ -1,0 +1,92 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/1a0e161477dfff898834.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "Vitacrypt",
+      "bit_qty": 263,
+      "rarity": "2.63%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmSQkXVxg2dzBfyip88WL4NEBZdje6APEe9ze23c8qZYHf",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9468697285880822",
+  "name": "BitMate #5947",
+  "id": 5947,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Safety Vest",
+      "rare": "2,40%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Long Cape",
+      "rare": "0,78%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Sword",
+      "rare": "0,46%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 430
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 66
+    },
+    {
+      "trait_type": "Agility",
+      "value": 27
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 46
+    },
+    {
+      "trait_type": "Strength",
+      "value": 34
+    },
+    {
+      "trait_type": "Luck",
+      "value": 36
+    }
+  ],
+  "totalStats": 209
+}

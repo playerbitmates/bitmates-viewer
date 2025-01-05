@@ -1,0 +1,88 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/e245dac99e1550a29abc.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "secondary"
+    },
+    {
+      "region": "Winter's Respite",
+      "bit_qty": 503,
+      "rarity": "5.03%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmSbzdZgFzbS9ZbFDu3yd4b4akPGhmHy74bvC4GcPxBsX1",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "0956393229383891",
+  "name": "BitMate #2603",
+  "id": 2603,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Unicorn",
+      "rare": "0,78%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bra",
+      "rare": "1,96%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Irresistible"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 220
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 51
+    },
+    {
+      "trait_type": "Agility",
+      "value": 40
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 83
+    },
+    {
+      "trait_type": "Strength",
+      "value": 28
+    },
+    {
+      "trait_type": "Luck",
+      "value": 43
+    }
+  ],
+  "totalStats": 245
+}

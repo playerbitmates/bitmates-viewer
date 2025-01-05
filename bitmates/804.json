@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/2668d4e06bc7c2b7432c.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmS8WNok4eukUffn5ekugT2sKfCyKyw8bXcANiEegUiSPX",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6355404755030996",
+  "name": "BitMate #804",
+  "id": 804,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Chimp",
+      "rare": "7,96%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cheerleader Uniform",
+      "rare": "2,08%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Flower",
+      "rare": "1,71%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smooth"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Nimble"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 184
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 17
+    },
+    {
+      "trait_type": "Agility",
+      "value": 85
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 37
+    },
+    {
+      "trait_type": "Strength",
+      "value": 66
+    },
+    {
+      "trait_type": "Luck",
+      "value": 51
+    }
+  ],
+  "totalStats": 256
+}

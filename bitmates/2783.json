@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/87c9be9bec580891a1b6.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    },
+    {
+      "region": "Cinder City",
+      "bit_qty": 80,
+      "rarity": "0.80%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmUK268s63ium34MAYbHUuHHjmKW4JJ2NSXLzi1cSjKfkb",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4339548431390867",
+  "name": "BitMate #2783",
+  "id": 2783,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Fish",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Balloons",
+      "rare": "2,82%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 102
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 67
+    },
+    {
+      "trait_type": "Agility",
+      "value": 78
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 79
+    },
+    {
+      "trait_type": "Strength",
+      "value": 69
+    },
+    {
+      "trait_type": "Luck",
+      "value": 42
+    }
+  ],
+  "totalStats": 335
+}

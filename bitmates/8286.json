@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/e9d2f24c6ade2abb205d.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://Qmaox5ERnNLKZipmu1EucbMXdkSm6kAKWESn6CEmumWbYD",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "1657714629582161",
+  "name": "BitMate #8286",
+  "id": 8286,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Chimp",
+      "rare": "6,57%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Wreath",
+      "rare": "2,18%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Snorkel",
+      "rare": "0,54%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Burly"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 291
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 61
+    },
+    {
+      "trait_type": "Agility",
+      "value": 65
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 26
+    },
+    {
+      "trait_type": "Strength",
+      "value": 88
+    },
+    {
+      "trait_type": "Luck",
+      "value": 47
+    }
+  ],
+  "totalStats": 287
+}

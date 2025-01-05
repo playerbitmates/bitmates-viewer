@@ -1,0 +1,97 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/9bf6c96a52b7fcd78a8f.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    },
+    {
+      "region": "Primus",
+      "bit_qty": 192,
+      "rarity": "1.92%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmRKq2m7DJNEJNhQqtsttrUh5rzHovsaEfGd672CYoek1R",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4790793027402689",
+  "name": "BitMate #6802",
+  "id": 6802,
+  "characteristics": [
+    {
+      "trait_type": "Back",
+      "value": "Baby",
+      "rare": "6,36%"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Top Hat",
+      "rare": "1,37%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Paintbrush",
+      "rare": "1,06%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Drama Mask",
+      "rare": "0,91%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Charmed"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 433
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 40
+    },
+    {
+      "trait_type": "Agility",
+      "value": 63
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 62
+    },
+    {
+      "trait_type": "Strength",
+      "value": 43
+    },
+    {
+      "trait_type": "Luck",
+      "value": 80
+    }
+  ],
+  "totalStats": 288
+}

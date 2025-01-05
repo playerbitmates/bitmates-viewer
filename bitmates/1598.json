@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/023d72599aff8b59f8f7.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    },
+    {
+      "region": "The Frigid Frontier",
+      "bit_qty": 1061,
+      "rarity": "10.61%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmNig7C9xgz4tGBFx5vPuBnG97VqQaWQtLsqwUxfQfonEo",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3207602842245831",
+  "name": "BitMate #1598",
+  "id": 1598,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Fish Bowl",
+      "rare": "1,58%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Galaxy"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Charmed"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 148
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 98
+    },
+    {
+      "trait_type": "Agility",
+      "value": 72
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 27
+    },
+    {
+      "trait_type": "Strength",
+      "value": 65
+    },
+    {
+      "trait_type": "Luck",
+      "value": 80
+    }
+  ],
+  "totalStats": 342
+}

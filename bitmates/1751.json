@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/5e7cc639f80cb81f750a.png",
+  "region": [
+    {
+      "region": "Ape Atoll",
+      "bit_qty": 1981,
+      "rarity": "19.81%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://Qmb1iPy1vXpcyoWf7RCuAPksznvAXNrMGEmBWudoAsyKLi",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6799476462250760",
+  "name": "BitMate #1751",
+  "id": 1751,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Unicorn",
+      "rare": "0,78%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pirate Coat",
+      "rare": "0,58%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Axe",
+      "rare": "0,39%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 577
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 52
+    },
+    {
+      "trait_type": "Agility",
+      "value": 26
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 47
+    },
+    {
+      "trait_type": "Strength",
+      "value": 25
+    },
+    {
+      "trait_type": "Luck",
+      "value": 22
+    }
+  ],
+  "totalStats": 172
+}

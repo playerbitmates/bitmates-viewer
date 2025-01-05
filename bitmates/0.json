@@ -1,0 +1,91 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/fea3be603091bfde1838.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmSS9HiXbsygyCgAQtuz9aZ5trRXNvPACqnDAKmEUwYn2E",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "4922756772323897",
+  "name": "BitMate #0",
+  "id": 0,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Rat",
+      "rare": "6,44%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Knight",
+      "rare": "0,64%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Long Cape",
+      "rare": "0,78%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Crown",
+      "rare": "0,24%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Sword",
+      "rare": "0,46%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 1042
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 65
+    },
+    {
+      "trait_type": "Agility",
+      "value": 42
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 65
+    },
+    {
+      "trait_type": "Strength",
+      "value": 56
+    },
+    {
+      "trait_type": "Luck",
+      "value": 59
+    }
+  ],
+  "totalStats": 287
+}

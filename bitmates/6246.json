@@ -1,0 +1,76 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/e99bc402a8f91d4fc3d5.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmbSCoSzc3s3EADDe5s9fkwefvmaCvjnkS35As4MdPqxzY",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3857513603380327",
+  "name": "BitMate #6246",
+  "id": 6246,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Snake",
+      "rare": "4,56%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Jester Collar",
+      "rare": "0,92%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 149
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 24
+    },
+    {
+      "trait_type": "Agility",
+      "value": 49
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 55
+    },
+    {
+      "trait_type": "Strength",
+      "value": 25
+    },
+    {
+      "trait_type": "Luck",
+      "value": 67
+    }
+  ],
+  "totalStats": 220
+}

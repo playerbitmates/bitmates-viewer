@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/658066992ca1133c446b.png",
+  "region": [
+    {
+      "region": "The Eastern Empire",
+      "bit_qty": 1214,
+      "rarity": "12.14%",
+      "type": "main"
+    },
+    {
+      "region": "Clear Skies Farm",
+      "bit_qty": 179,
+      "rarity": "1.79%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmXUsYCWRZgE1njLQyJpp6tHnhawwAZByDBH4SzqUiWDuQ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2159339154740704",
+  "name": "BitMate #1731",
+  "id": 1731,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Colorful Monkey",
+      "rare": "13,12%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ghost",
+      "rare": "0,94%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 155
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 32
+    },
+    {
+      "trait_type": "Agility",
+      "value": 46
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 79
+    },
+    {
+      "trait_type": "Strength",
+      "value": 11
+    },
+    {
+      "trait_type": "Luck",
+      "value": 40
+    }
+  ],
+  "totalStats": 208
+}

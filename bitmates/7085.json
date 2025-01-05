@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/8eaf4e5394b002fc0ed1.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    },
+    {
+      "region": "Primus",
+      "bit_qty": 192,
+      "rarity": "1.92%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmcCpQVvxNVVptwyvvZrmv4NDKPVRA3H7A4x7GMtkq5uZz",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "9656709710270088",
+  "name": "BitMate #7085",
+  "id": 7085,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Demon",
+      "rare": "3,71%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Banana",
+      "rare": "1,63%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Galaxy"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Sluggish"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 135
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 86
+    },
+    {
+      "trait_type": "Agility",
+      "value": 31
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 24
+    },
+    {
+      "trait_type": "Strength",
+      "value": 62
+    },
+    {
+      "trait_type": "Luck",
+      "value": 31
+    }
+  ],
+  "totalStats": 234
+}

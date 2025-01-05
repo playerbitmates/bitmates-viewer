@@ -1,0 +1,86 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/ea7fc512a51e64da3ab9.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmX5FWRsBtUgvu5XUKPzUy9jGT9ZMvDtKqVmkR92SSEXZS",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "6838360069123925",
+  "name": "BitMate #1447",
+  "id": 1447,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Zombie",
+      "rare": "1,86%"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bra",
+      "rare": "1,96%"
+    },
+    {
+      "trait_type": "Shoulder",
+      "value": "Vampire Cloak",
+      "rare": "0,69%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Wizard",
+      "rare": "0,68%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Ape in the street"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Feeble"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 429
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 68
+    },
+    {
+      "trait_type": "Agility",
+      "value": 67
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 53
+    },
+    {
+      "trait_type": "Strength",
+      "value": 36
+    },
+    {
+      "trait_type": "Luck",
+      "value": 60
+    }
+  ],
+  "totalStats": 284
+}

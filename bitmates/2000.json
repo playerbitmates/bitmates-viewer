@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/953f777dcaa5a216a74c.png",
+  "region": [
+    {
+      "region": "The Forsaken Sands",
+      "bit_qty": 1290,
+      "rarity": "12.90%",
+      "type": "main"
+    },
+    {
+      "region": "Desert Diamonds",
+      "bit_qty": 172,
+      "rarity": "1.72%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://Qme3rNr3rJqxy5mZRSReVJ73VKRCwvfMDbgw8x5EwYN3od",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "8929070281204972",
+  "name": "BitMate #2000",
+  "id": 2000,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Dragon",
+      "rare": "0,45%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat",
+      "rare": "5,23%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Advantaged"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 258
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 40
+    },
+    {
+      "trait_type": "Agility",
+      "value": 75
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 61
+    },
+    {
+      "trait_type": "Strength",
+      "value": 44
+    },
+    {
+      "trait_type": "Luck",
+      "value": 44
+    }
+  ],
+  "totalStats": 264
+}

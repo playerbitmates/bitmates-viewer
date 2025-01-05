@@ -1,0 +1,82 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/14c32fe8e50da9224da5.png",
+  "region": [
+    {
+      "region": "Primordial Forest",
+      "bit_qty": 1602,
+      "rarity": "16.02%",
+      "type": "main"
+    },
+    {
+      "region": "Primus",
+      "bit_qty": 192,
+      "rarity": "1.92%",
+      "type": "sub"
+    }
+  ],
+  "ipfs": "ipfs://QmUfNUwLBkCxSHT13qJhYwEzWCj534VXPcWuUHzqQM8bvF",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5389295277456962",
+  "name": "BitMate #5060",
+  "id": 5060,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Monkey",
+      "rare": "8,84%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Farmer",
+      "rare": "5,00%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Spry"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Ill-Fated"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 96
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 49
+    },
+    {
+      "trait_type": "Agility",
+      "value": 75
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 25
+    },
+    {
+      "trait_type": "Strength",
+      "value": 12
+    },
+    {
+      "trait_type": "Luck",
+      "value": 16
+    }
+  ],
+  "totalStats": 177
+}

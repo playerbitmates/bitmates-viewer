@@ -1,0 +1,80 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/1b55667745c651751adb.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmNrJc9U7SN3TDPFwVCQt88gzWzVgjgEwfxfLEkVdy2asJ",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "5960776497331648",
+  "name": "BitMate #2305",
+  "id": 2305,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bird",
+      "rare": "7,82%"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Wizard",
+      "rare": "0,68%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Biker Gloves"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Smol"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Fragile"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 275
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 36
+    },
+    {
+      "trait_type": "Agility",
+      "value": 46
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 28
+    },
+    {
+      "trait_type": "Strength",
+      "value": 17
+    },
+    {
+      "trait_type": "Luck",
+      "value": 68
+    }
+  ],
+  "totalStats": 195
+}

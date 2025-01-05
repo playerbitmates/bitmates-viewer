@@ -1,0 +1,81 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/deb6fbf26d85a9b7d456.png",
+  "region": [
+    {
+      "region": "Northern frontier",
+      "bit_qty": 2175,
+      "rarity": "21.75%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmS4SpPHqE59651zeuSZguDVBhdymktjVVZYVLac3tdpTg",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "3045210561697078",
+  "name": "BitMate #7308",
+  "id": 7308,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Bunny",
+      "rare": "1,31%"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Sword",
+      "rare": "0,46%"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Masquerade",
+      "rare": "0,97%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Middle-curve"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Capable"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Tough"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Wretched"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 414
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 59
+    },
+    {
+      "trait_type": "Agility",
+      "value": 43
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 31
+    },
+    {
+      "trait_type": "Strength",
+      "value": 41
+    },
+    {
+      "trait_type": "Luck",
+      "value": 31
+    }
+  ],
+  "totalStats": 205
+}

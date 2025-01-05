@@ -1,0 +1,71 @@
+{
+  "image": "https://storage.googleapis.com/apes-f984d.appspot.com/monke/56cbc4fe21cd410d8269.png",
+  "region": [
+    {
+      "region": "Cinder Summit",
+      "bit_qty": 977,
+      "rarity": "9.77%",
+      "type": "main"
+    }
+  ],
+  "ipfs": "ipfs://QmQTdAJt92o4hPsrmpHXbZhkHVkDxGhZ2CR8RoGAbK61DC",
+  "description": "A unique BitMate from the genesis collection.",
+  "genome": "2787760307028386",
+  "name": "BitMate #9685",
+  "id": 9685,
+  "characteristics": [
+    {
+      "trait_type": "Species",
+      "value": "Robot",
+      "rare": "2,59%"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "Wrinkled"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "Potato"
+    },
+    {
+      "trait_type": "Charm",
+      "value": "Unnoticed"
+    },
+    {
+      "trait_type": "Physique",
+      "value": "Meaty"
+    },
+    {
+      "trait_type": "Fortune",
+      "value": "Fortunate"
+    },
+    {
+      "trait_type": "Favor",
+      "display_type": "boost_number",
+      "value": 91
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Intellect",
+      "value": 79
+    },
+    {
+      "trait_type": "Agility",
+      "value": 6
+    },
+    {
+      "trait_type": "Charisma",
+      "value": 29
+    },
+    {
+      "trait_type": "Strength",
+      "value": 66
+    },
+    {
+      "trait_type": "Luck",
+      "value": 62
+    }
+  ],
+  "totalStats": 242
+}

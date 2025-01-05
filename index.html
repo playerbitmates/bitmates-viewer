@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAFACAYAAADNkKWqAAAAAXNSR0IArs4c6QAABh1JREFUeJzt3bFvVWUcxvEid7CbDR0MrixNTIwDk1EIgwuLm+JCUoZOTRwYMA7EgcjAUNOpAyQuurJ0JUDSRRMJ1QQH0hEdSmp0QJJr6h+Axh/c99739D6fz/zmnAOk35yhD2dhAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFdxrPcDDNVoNOp168NeN2auNf1ZH4/HLS/XzWu9HwCgFwEEYgkgEEsAgVgCCMQSQCCWAAKxBBCIJYBArLglyBQWHl2WG3c313rcloE5u77V+pJRixFvgEAsAQRiCSAQSwCBWAIIxBJAIJYAArEEEIglgECsuVmCDH3h0Wu5cevGnS73ZTKrl881vd7QFyNVrZcl3gCBWAIIxBJAIJYAArEEEIglgEAsAQRiCSAQSwCBWINfgqQtPFovN06fXG56PSbzw5P9ptc7AouRqlKLLEEAGhFAIJYAArEEEIglgEAsAQRiCSAQSwCBWAIIxJqnJchcLDwsN4al9XKjl9aLkarWy5LxeNy0Wd4AgVgCCMQSQCCWAAKxBBCIJYBALAEEYgkgEEsAgVhxS5DWC49rV2+Xzu09Xyqdu3n9zCSP84LHj542vV7VqZUTXe5b9dO3u6VzQ1+C/PrnH13u+8WXHzW9XnUxYgkC0IgAArEEEIglgEAsAQRiCSAQSwCBWAIIxBJAIFZ5ZpGmuvCo/kb8pSv3mp6rar0sqWr952it/Pcy8MVI60VGVeufj168AQKxBBCIJYBALAEEYgkgEEsAgVgCCMQSQCCWAAKxLEFm5JeD2qLgjcXl0rk3Xz9ZOtf6myCtv/Xx219PSud+f1ZbWuxsrU/yOIOxevlc6Vz12yZVi+++1fR6Q+cNEIglgEAsAQRiCSAQSwCBWAIIxBJAIJYAArEEEIhlCTKh6tJi8cGDpvft9a2Pqurznf/su9K5Hxv//Q1ddeFR/RbJB+ffmeRxXrD3fKnp9XrxBgjEEkAglgACsQQQiCWAQCwBBGIJIBBLAIFYAgjEsgSZkU/PXSyd+3rtw9K5WzfulM5Vvy3R+npV2xsXSueefX+rdK71N1B6qS48Wvvqm59L54a+RKryBgjEEkAglgACsQQQiCWAQCwBBGIJIBBLAIFYAgjEOtb7Af7PaDQ6bHm9u5trLS+3cOnKvdK5zy++XTp3auXEJI9DUXUxcn/74ZSfZDZ29o+XzrVeeJxd32p6vfF43LRZ3gCBWAIIxBJAIJYAArEEEIglgEAsAQRiCSAQSwCBWAIIxBJAIJYAArEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4JX9A2dZ/gKejMUXAAAAAElFTkSuQmCC">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Neucha&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>BitMate Viewer</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    img { max-width: 200px; }
+    .error { color: red; }
+    .container { margin-top: 20px; }
+    .section { margin-bottom: 20px; }
+    .section h3 { margin-bottom: 10px; }
+    .attribute-list { padding-left: 20px; }
+    .nft-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+    .nft-card { border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
+    .attribute-list, .characteristics-list, .region-list { padding-left: 20px; }
+
+    /* Estilo para os grupos de características */
+    .char-group {
+        border: 2px solid #3f2832;
+        border-radius: 4px;
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+
+    /* Grupo de espécies */
+    .species-group {
+        background-color: rgba(201, 167, 125, 0.3); /* Cor mais clara */
+        margin-bottom: 12px;
+    }
+
+    /* Grupo de traits */
+    .traits-group {
+        background-color: rgba(201, 167, 125, 0.2);
+        margin-bottom: 12px;
+    }
+
+    /* Grupo de cosméticos */
+    .cosmetics-group {
+        background-color: rgba(201, 167, 125, 0.1);
+    }
+
+    /* Ajuste para os itens dentro dos grupos */
+    .char-group li:first-child {
+        margin-top: 0;
+    }
+
+    .char-group li:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Estilos para o sistema de comparação */
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .compare-checkbox {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .compare-container {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .compare-button {
+        background-color: #C9A77D;
+        border: 2px solid #3f2832;
+        border-radius: 5px;
+        padding: 8px 15px;
+        font-family: 'Press Start 2P', system-ui;
+        font-size: 0.8em;
+        cursor: pointer;
+    }
+
+    .comparison-result {
+        background-color: #ffd4a3;
+        border: 2px solid #3f2832;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 900px;
+    }
+
+    .comparison-grid {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .comparison-vs {
+        font-family: 'Press Start 2P', system-ui;
+        font-size: 1.5em;
+        color: #3f2832;
+    }
+
+    .comparison-card {
+        background-color: #C9A77D;
+        border: 2px solid #3f2832;
+        border-radius: 5px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .comparison-card img {
+        max-width: 180px;
+        border: 2px solid #3f2832;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+
+    .stats-comparison {
+        margin-top: 10px;
+        font-family: 'Press Start 2P', system-ui;
+        font-size: 0.8em;
+    }
+
+    @media screen and (max-width: 768px) {
+        .comparison-grid {
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .comparison-vs {
+            display: none;
+        }
+
+        .comparison-card img {
+            max-width: 150px;
+        }
+    }
+  </style>
+</head>
+<body>
+  <h1>BitMate Viewer</h1>
+  
+  <div>
+    <input type="text" id="searchValue" style="width: 400px;" placeholder="Enter wallet, ING or ID">
+    <button onclick="performSearch()">Search</button>
+  </div>
+
+  <div id="sortingButtons" style="display: none; margin: 20px 0;">
+    <button onclick="sortCards('default')" class="sort-button">Sort by default</button>
+    <button onclick="sortCards('favor')" class="sort-button">Sort by Favor</button>
+    <button onclick="sortCards('stats')" class="sort-button">Sort by Total Stats</button>
+  </div>
+
+  <div id="compareContainer" style="display: none;" class="compare-container">
+    <button onclick="compareSelected()" class="compare-button">Compare Selected BitMates</button>
+    <button onclick="clearSelection()" class="compare-button">Clear Selection</button>
+  </div>
+
+  <div id="comparisonResult" class="comparison-result" style="display: none;"></div>
+
+  <div id="result" class="container"></div>
+
+  <div id="backToTop" class="back-to-top" onclick="scrollToTop()" style="display: none;">↑</div>
+
+  <script>
+    let originalOrder = [];
+    let selectedCards = [];
+    const MAX_SELECTED = 2;
+
+    async function performSearch() {
+      // Limpa a seleção de forma segura
+      selectedCards = [];
+      const compareContainer = document.getElementById('compareContainer');
+      const comparisonResult = document.getElementById('comparisonResult');
+      
+      if (compareContainer) compareContainer.style.display = 'none';
+      if (comparisonResult) comparisonResult.style.display = 'none';
+      
+      originalOrder = [];
+      const searchValue = document.getElementById('searchValue').value.trim();
+      const resultDiv = document.getElementById('result');
+      const sortingButtons = document.getElementById('sortingButtons');
+      
+      resultDiv.innerHTML = '<p class="error-message">Loading...</p>';
+      if (sortingButtons) sortingButtons.style.display = 'none';
+
+      if (!searchValue) {
+        resultDiv.innerHTML = '<p class="error-message">Please, enter an ID, wallet address or player name.</p>';
+        return;
+      }
+
+      try {
+        let nftsToDisplay = [];
+        let walletToSearch = '';
+
+        // Verifica se é um endereço ETH válido (começa com 0x e tem 42 caracteres)
+        if (/^0x[a-fA-F0-9]{40}$/.test(searchValue)) {
+          walletToSearch = searchValue;
+        } 
+        // Verifica se é uma lista de IDs (contém apenas números, vírgulas e espaços)
+        else if (/^[\d,\s]+$/.test(searchValue)) {
+          const cleanedValue = searchValue.replace(/,\s*$/, '');
+          nftsToDisplay = [...new Set(  // Usando Set para remover duplicatas
+            cleanedValue
+              .split(/[,\s]+/)
+              .map(id => id.trim())
+              .filter(id => id !== '')
+              .filter(id => !isNaN(id))
+          )];
+
+          if (nftsToDisplay.length === 0) {
+            resultDiv.innerHTML = '<p class="error-message">Por favor, insira IDs válidos.</p>';
+            return;
+          }
+
+          // Armazena a ordem original da lista
+          originalOrder = [...nftsToDisplay];
+
+          resultDiv.innerHTML = `
+            ${nftsToDisplay.length > 0 ? `<h2>Total BitMates: ${nftsToDisplay.length}</h2>` : ''}
+            <div class="nft-grid"></div>
+          `;
+        }
+        // Se não é wallet nem ID, tenta buscar como IGN
+        else {
+          try {
+            const playerResponse = await fetch(`https://bitmatemediator.net/highscore/v1/player/${searchValue}`);
+            const playerData = await playerResponse.json();
+            
+            if (playerData.data && playerData.data.address) {
+              walletToSearch = playerData.data.address;
+            } else {
+              resultDiv.innerHTML = '<p class="error-message">Player not found.</p>';
+              return;
+            }
+          } catch (error) {
+            resultDiv.innerHTML = '<p class="error-message">Error fetching player information.</p>';
+            return;
+          }
+        }
+
+        // Se temos uma wallet para pesquisar (seja direta ou via IGN)
+        if (walletToSearch) {
+          const apiKey = 'alcht_Da0G0kZ5pKqzCqSqNzmOvtJ60iXFKd';
+          const contractAddress = '0xF8C18Df7509c03b45e6247b2b9E73fcaDEF24dd6';
+          const url = `https://eth-mainnet.g.alchemy.com/nft/v3/${apiKey}/getNFTsForOwner?owner=${walletToSearch}&withMetadata=true&pageSize=100&contractAddresses[]=${contractAddress}`;
+
+          const response = await fetch(url);
+          const data = await response.json();
+
+          if (data.ownedNfts.length === 0) {
+            resultDiv.innerHTML = '<p class="error-message">This wallet does not have BitMates.</p>';
+            return;
+          }
+
+          nftsToDisplay = data.ownedNfts.map(nft => nft.tokenId);
+          resultDiv.innerHTML = `
+            ${nftsToDisplay.length > 0 ? `<h2>Total BitMates: ${nftsToDisplay.length}</h2>` : ''}
+            <div class="nft-grid"></div>
+          `;
+        }
+
+        const nftGrid = resultDiv.querySelector('.nft-grid');
+
+        // Busca e exibe os NFTs
+        for (const tokenId of nftsToDisplay) {
+          try {
+            const response = await fetch(`bitmates/${tokenId}.json`);
+            if (!response.ok) continue;
+            
+            const data = await response.json();
+            
+            const nftCard = document.createElement('div');
+            nftCard.className = 'nft-card';
+            nftCard.innerHTML = `
+              <div class="card-header">
+                <h2>#${data.id}</h2>
+                ${nftsToDisplay.length > 1 ? `
+                  <label class="compare-label">
+                    <input type="checkbox" class="compare-checkbox" onchange="handleSelection(this, ${data.id})" />
+                    Compare
+                  </label>
+                ` : ''}
+              </div>
+              <img src="${data.image}" alt="${data.name}">
+
+              <div class="section">
+                <h3>Regions</h3>
+                <ul class="region-list">
+                  ${data.region.map(region => `
+                    <li>
+                      <span class="label">${region.type === 'main' ? 'Region' : 
+                               region.type === 'sub' ? 'Sub-Region' : 
+                               'Secondary-Region'}:</span> ${region.region} <span class="rarity-badge">${region.rarity}</span>
+                    </li>
+                  `).join('')}
+                </ul>
+              </div>
+
+              <div class="section">
+                <h3>Characteristics</h3>
+                <ul class="characteristics-list">
+                  ${(() => {
+                    const species = data.characteristics.filter(char => char.trait_type === 'Species');
+                    const cosmetics = data.characteristics.filter(char => 
+                      char.trait_type !== 'Species' && 
+                      char.trait_type !== 'Favor' && 
+                      !['Brain Type', 'Tempo', 'Charm', 'Physique', 'Fortune'].includes(char.trait_type)
+                    );
+                    const traits = data.characteristics.filter(char => 
+                      ['Brain Type', 'Tempo', 'Charm', 'Physique', 'Fortune'].includes(char.trait_type)
+                    );
+
+                    return `
+                      <div class="char-group species-group">
+                        ${species.map(char => `
+                          <li>
+                            <span class="label">${char.trait_type}:</span> ${char.value} 
+                            ${char.rare ? `<span class="rarity-badge">${char.rare}</span>` : ''}
+                          </li>
+                        `).join('')}
+                      </div>
+
+                      ${cosmetics.length > 0 ? `
+                        <div class="char-group cosmetics-group">
+                          ${cosmetics.map(char => `
+                            <li>
+                              <span class="label">${char.trait_type}:</span> ${char.value} 
+                              ${char.rare ? `<span class="rarity-badge">${char.rare}</span>` : ''}
+                            </li>
+                          `).join('')}
+                        </div>
+                      ` : ''}
+
+                      <div class="char-group traits-group">
+                        ${traits.map(char => `
+                          <li>
+                            <span class="label">${char.trait_type}:</span> ${char.value} 
+                            ${char.rare ? `<span class="rarity-badge">${char.rare}</span>` : ''}
+                          </li>
+                        `).join('')}
+                      </div>
+                    `;
+                  })()}
+                </ul>
+              </div>
+
+              <!-- Favor separado em sua própria div -->
+              <div class="section">
+                ${data.characteristics
+                  .filter(char => char.trait_type === 'Favor')
+                  .map(char => `
+                    <p class="total-stats favor-stats">
+                      <span class="label">Favor:</span>
+                      <span>${char.value}</span>
+                    </p>
+                  `).join('')}
+              </div>
+
+              <!-- Stats em sua própria div -->
+              <div class="section">
+                <h3>Stats</h3>
+                <ul class="attribute-list">
+                  ${data.attributes.map(attr => `
+                    <li>
+                      <div>
+                        <span class="label">${attr.trait_type}:</span>
+                        <span>${attr.value}</span>
+                      </div>
+                      <div class="stat-bar-container">
+                        <div class="stat-bar" style="width: ${(attr.value / 99) * 100}%"></div>
+                      </div>
+                    </li>
+                  `).join('')}
+                </ul>
+                <p class="total-stats stats-total">
+                  <span class="label">Total Stats:</span>
+                  <span>${data.totalStats}</span>
+                </p>
+              </div>
+            `;
+            
+            nftGrid.appendChild(nftCard);
+          } catch (error) {
+            console.error(`Error fetching BitMate #${tokenId}:`, error);
+          }
+        }
+
+        // Mostrar botões de ordenação se houver mais de 1 card
+        if (nftsToDisplay.length > 1) {
+          sortingButtons.style.display = 'block';
+        }
+      } catch (error) {
+        resultDiv.innerHTML = `<p class="error">Erro ao buscar NFTs: ${error.message}</p>`;
+      }
+    }
+
+    // Adiciona suporte para pressionar Enter no campo de busca
+    document.getElementById('searchValue').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        performSearch();
+      }
+    });
+
+    function sortCards(sortType) {
+      const nftGrid = document.querySelector('.nft-grid');
+      if (!nftGrid) return;
+
+      const cards = Array.from(nftGrid.children);
+      
+      cards.sort((a, b) => {
+        if (sortType === 'favor') {
+          const favorA = parseInt(a.querySelector('.favor-stats span:not(.label)').textContent) || 0;
+          const favorB = parseInt(b.querySelector('.favor-stats span:not(.label)').textContent) || 0;
+          return favorB - favorA;
+        } 
+        else if (sortType === 'stats') {
+          const statsA = parseInt(a.querySelector('.stats-total span:not(.label)').textContent) || 0;
+          const statsB = parseInt(b.querySelector('.stats-total span:not(.label)').textContent) || 0;
+          return statsB - statsA;
+        }
+        else {
+          // Ordem padrão - usa a ordem original se existir, senão ordena por ID
+          if (originalOrder.length > 0) {
+            const idA = parseInt(a.querySelector('h2').textContent.replace('#', ''));
+            const idB = parseInt(b.querySelector('h2').textContent.replace('#', ''));
+            return originalOrder.indexOf(idA.toString()) - originalOrder.indexOf(idB.toString());
+          } else {
+            const idA = parseInt(a.querySelector('h2').textContent.replace('#', '')) || 0;
+            const idB = parseInt(b.querySelector('h2').textContent.replace('#', '')) || 0;
+            return idA - idB;
+          }
+        }
+      });
+
+      // Limpa o grid e reinsere os cards ordenados
+      while (nftGrid.firstChild) {
+        nftGrid.removeChild(nftGrid.firstChild);
+      }
+      cards.forEach(card => nftGrid.appendChild(card));
+    }
+
+    function handleSelection(checkbox, id) {
+      const compareContainer = document.getElementById('compareContainer');
+      const comparisonResult = document.getElementById('comparisonResult');
+
+      if (checkbox.checked) {
+        if (selectedCards.length >= MAX_SELECTED) {
+          checkbox.checked = false;
+          alert('You can only select 2 BitMates to compare');
+          return;
+        }
+        selectedCards.push(id);
+      } else {
+        selectedCards = selectedCards.filter(cardId => cardId !== id);
+        comparisonResult.style.display = 'none';
+      }
+
+      // Mostra os botões apenas quando tiver exatamente 2 cards selecionados
+      compareContainer.style.display = selectedCards.length === 2 ? 'flex' : 'none';
+    }
+
+    function clearSelection() {
+      selectedCards = [];
+      document.querySelectorAll('.compare-checkbox').forEach(checkbox => {
+        checkbox.checked = false;
+      });
+      
+      // Esconde os elementos de comparação
+      const compareContainer = document.getElementById('compareContainer');
+      const comparisonResult = document.getElementById('comparisonResult');
+      
+      if (compareContainer) compareContainer.style.display = 'none';
+      if (comparisonResult) comparisonResult.style.display = 'none';
+      
+      // Mostra novamente a lista de BitMates e o total
+      const nftGrid = document.querySelector('.nft-grid');
+      const totalBitmates = document.querySelector('#result > h2');
+      const sortingButtons = document.getElementById('sortingButtons');
+      
+      if (nftGrid) nftGrid.style.display = 'grid';
+      if (totalBitmates) totalBitmates.style.display = 'block';
+      if (sortingButtons && document.querySelectorAll('.nft-card').length > 1) {
+        sortingButtons.style.display = 'block';
+      }
+
+      document.getElementById('backToTop').style.display = 'none';
+    }
+
+    async function compareSelected() {
+      if (selectedCards.length !== 2) {
+        alert('Please select 2 BitMates to compare');
+        return;
+      }
+
+      // Esconde a lista de BitMates e o total
+      document.querySelector('.nft-grid').style.display = 'none';
+      document.querySelector('#result > h2').style.display = 'none';
+      document.getElementById('sortingButtons').style.display = 'none';
+
+      const comparisonResult = document.getElementById('comparisonResult');
+      
+      try {
+        const card1Data = await fetch(`bitmates/${selectedCards[0]}.json`).then(r => r.json());
+        const card2Data = await fetch(`bitmates/${selectedCards[1]}.json`).then(r => r.json());
+
+        // Função auxiliar para calcular a diferença
+        const getDifference = (val1, val2) => {
+          const diff = val1 - val2;
+          return diff === 0 ? '' : diff > 0 ? `+${diff}` : diff;
+        };
+
+        // Função para obter a classe CSS baseada na diferença
+        const getDiffClass = diff => !diff ? '' : diff > 0 ? 'better' : 'worse';
+
+        comparisonResult.innerHTML = `
+          <div class="comparison-grid">
+            <div class="comparison-card">
+              <h3>#${card1Data.id}</h3>
+              <span class="main-indicator">Main BitMate</span>
+              <img src="${card1Data.image}" alt="BitMate #${card1Data.id}">
+              
+              <div class="favor-section">
+                <h4>Favor</h4>
+                ${(() => {
+                  const favor = card1Data.characteristics.find(c => c.trait_type === 'Favor')?.value || 0;
+                  return `
+                    <div class="favor-row">
+                      <span class="label">Favor:</span>
+                      <span class="value">${favor}</span>
+                    </div>
+                  `;
+                })()}
+              </div>
+
+              <div class="stats-section">
+                <h4>Stats</h4>
+                ${card1Data.attributes.map(attr => `
+                  <div class="stat-row">
+                    <div>
+                      <span class="label">${attr.trait_type}:</span>
+                      <span class="value">${attr.value}</span>
+                    </div>
+                    <div class="stat-bar-container">
+                      <div class="stat-bar" style="width: ${(attr.value / 99) * 100}%"></div>
+                    </div>
+                  </div>
+                `).join('')}
+                <div class="stat-row total">
+                  <span class="label">Total Stats:</span>
+                  <span class="value">${card1Data.totalStats}</span>
+                </div>
+              </div>
+
+              <div class="regions-section">
+                <h4>Regions</h4>
+                ${card1Data.region.map(region => `
+                  <div class="region-row">
+                    <span class="label">${region.type === 'main' ? 'Region' : 
+                                 region.type === 'sub' ? 'Sub-Region' : 
+                                 'Secondary-Region'}:</span>
+                    <span class="value">${region.region}</span>
+                    <span class="rarity">${region.rarity}</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+            
+            <div class="comparison-details">
+              <h4>Differences</h4>
+              
+              <!-- Favor Comparison -->
+              <div class="diff-section">
+                <h5>Favor</h5>
+                ${(() => {
+                  const favor1 = card1Data.characteristics.find(c => c.trait_type === 'Favor')?.value || 0;
+                  const favor2 = card2Data.characteristics.find(c => c.trait_type === 'Favor')?.value || 0;
+                  const diff = getDifference(favor1, favor2);
+                  return `
+                    <div class="diff-row ${getDiffClass(diff)}">
+                      <span class="diff-value">${diff || 'Equal'}</span>
+                    </div>
+                  `;
+                })()}
+              </div>
+
+              <!-- Stats Comparison -->
+              <div class="diff-section">
+                <h5>Stats</h5>
+                ${card1Data.attributes.map((attr, i) => {
+                  const diff = getDifference(attr.value, card2Data.attributes[i].value);
+                  return `
+                    <div class="diff-row ${getDiffClass(diff)}">
+                      <span class="label">${attr.trait_type}:</span>
+                      <span class="diff-value">${diff || 'Equal'}</span>
+                    </div>
+                  `;
+                }).join('')}
+                <div class="diff-row total ${getDiffClass(card1Data.totalStats - card2Data.totalStats)}">
+                  <span class="label">Total Difference:</span>
+                  <span class="diff-value">${getDifference(card1Data.totalStats, card2Data.totalStats) || 'Equal'}</span>
+                </div>
+              </div>
+
+              <!-- Regions Comparison -->
+              <div class="diff-section">
+                <h5>Regions</h5>
+                ${(() => {
+                  const regions1 = card1Data.region || [];
+                  const regions2 = card2Data.region || [];
+                  const regionTypes = ['main', 'sub', 'secondary'];
+                  
+                  return regionTypes.map(type => {
+                    const region1 = regions1.find(r => r.type === type);
+                    const region2 = regions2.find(r => r.type === type);
+                    
+                    // Só mostra a comparação se ambos os BitMates tiverem a região
+                    if (region1 && region2) {
+                      const rarityDiff = parseFloat(region1.rarity) - parseFloat(region2.rarity);
+                      const regionName = type === 'main' ? 'Region' : 
+                                       type === 'sub' ? 'Sub-Region' : 
+                                       'Secondary-Region';
+                      
+                      const getRarityDiffClass = diff => !diff ? '' : diff < 0 ? 'better' : 'worse';
+                      
+                      return `
+                        <div class="diff-row ${getRarityDiffClass(rarityDiff)}">
+                          <span class="label">${regionName}:</span>
+                          <span class="value">${region1.region !== region2.region ? 'Different' : 'Same'}</span>
+                          <span class="diff-value">${rarityDiff > 0 ? '+' : ''}${rarityDiff.toFixed(2)}%</span>
+                        </div>
+                      `;
+                    }
+                    // Se não tiver a região em ambos, não mostra nada
+                    return '';
+                  }).join('');
+                })()}
+              </div>
+            </div>
+
+            <div class="comparison-card">
+              <h3>#${card2Data.id}</h3>
+              <img src="${card2Data.image}" alt="BitMate #${card2Data.id}">
+              
+              <div class="favor-section">
+                <h4>Favor</h4>
+                ${(() => {
+                  const favor = card2Data.characteristics.find(c => c.trait_type === 'Favor')?.value || 0;
+                  return `
+                    <div class="favor-row">
+                      <span class="label">Favor:</span>
+                      <span class="value">${favor}</span>
+                    </div>
+                  `;
+                })()}
+              </div>
+
+              <div class="stats-section">
+                <h4>Stats</h4>
+                ${card2Data.attributes.map(attr => `
+                  <div class="stat-row">
+                    <div>
+                      <span class="label">${attr.trait_type}:</span>
+                      <span class="value">${attr.value}</span>
+                    </div>
+                    <div class="stat-bar-container">
+                      <div class="stat-bar" style="width: ${(attr.value / 99) * 100}%"></div>
+                    </div>
+                  </div>
+                `).join('')}
+                <div class="stat-row total">
+                  <span class="label">Total Stats:</span>
+                  <span class="value">${card2Data.totalStats}</span>
+                </div>
+              </div>
+
+              <div class="regions-section">
+                <h4>Regions</h4>
+                ${card2Data.region.map(region => `
+                  <div class="region-row">
+                    <span class="label">${region.type === 'main' ? 'Region' : 
+                                         region.type === 'sub' ? 'Sub-Region' : 
+                                         'Secondary-Region'}:</span>
+                    <span class="value">${region.region}</span>
+                    <span class="rarity">${region.rarity}</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+          <div class="comparison-buttons">
+            <button onclick="clearSelection()" class="compare-button">Close Comparison</button>
+            <button onclick="invertComparison()" class="compare-button">Swap Position</button>
+          </div>
+        `;
+        
+        comparisonResult.style.display = 'block';
+      } catch (error) {
+        console.error('Error comparing BitMates:', error);
+      }
+    }
+
+    function invertComparison() {
+      // Inverte a ordem dos cards selecionados
+      selectedCards.reverse();
+      // Refaz a comparação com a nova ordem
+      compareSelected();
+    }
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    function handleScroll() {
+        const backToTopButton = document.getElementById('backToTop');
+        const cardHeight = document.querySelector('.nft-card')?.offsetHeight || 0;
+        
+        // Altura aproximada de uma linha de cards mais um pequeno offset
+        const showAfterHeight = cardHeight + 100; // Reduzido para uma linha + 100px de offset
+        
+        if (window.scrollY > showAfterHeight) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    }
+
+    // Adicione os event listeners
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleScroll);
+  </script>
+</body>
+</html>

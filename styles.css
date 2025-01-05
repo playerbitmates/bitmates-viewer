@@ -1,0 +1,1362 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #B48B5D;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #3f2832;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Estilo para o campo de busca */
+.search-container {
+    background-color: #995750;
+    border: 2px solid #3f2832;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Ajuste do container de busca */
+div:has(#searchValue) {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchValue {
+    width: 100%;
+    max-width: calc(100% - 20px);
+    box-sizing: border-box;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    background-color: #ffd4a3;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #C9A77D;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    color: #3f2832;
+    font-family: 'Press Start 2P', system-ui;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffd4a3;
+}
+
+/* Grid de NFTs */
+.nft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.nft-card {
+    background-color: #ffd4a3;
+    border: 2px solid #3f2832;
+    border-radius: 8px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Alinhamento específico apenas para imagens */
+.nft-card img {
+    align-self: center;
+}
+
+/* Ajuste específico apenas para a seção de Stats */
+.section:has(.attribute-list) {
+    margin-top: auto;
+}
+
+
+
+
+
+
+.nft-card h2 {
+    margin: 0 0 2px 0;
+    font-size: 1em;
+}
+
+.nft-card:hover {
+    transform: translateY(-5px);
+}
+
+.nft-card img {
+    max-width: 180px;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    margin: 2px 0 10px 0;
+    background-image: url('https://bitmates.io/assets/PhotographC-DkKo2ezD.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+/* Seções dentro do card */
+.section {
+    background-color: #995750;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.section h3 {
+    font-size: 0.9em;
+    margin: 0 0 5px 0;
+    color: #ffd4a3;
+}
+
+.attribute-list, 
+.characteristics-list, 
+.region-list {
+    padding: 5px;
+    list-style: none;
+    background-color: #C9A77D;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.attribute-list li, 
+.characteristics-list li, 
+.region-list li {
+    margin: 3px 0;
+    color: #3f2832;
+    font-family: 'Neucha', cursive;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    font-size: 0.95em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Mensagens de erro */
+.error {
+    color: #995750;
+    background-color: #ffd4a3;
+    border: 2px solid #3f2832;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .nft-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #searchValue {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .attribute-list li, 
+    .characteristics-list li, 
+    .region-list li {
+        font-size: 1em;
+    }
+}
+
+/* Efeito de zoom nas imagens */
+.zoom-effect {
+    transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1);
+}
+
+/* Opcional: adicionar um container específico para a imagem */
+.image-container {
+    background-image: url('https://bitmates.io/assets/PhotographC-DkKo2ezD.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #3f2832;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Estilo para as barras de stats */
+.stat-bar-container {
+    width: 100%;
+    height: 8px;
+    background-color: #3f2832;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 1px;
+}
+
+.stat-bar {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+/* Cores diferentes para cada stat */
+.attribute-list li:nth-child(1) .stat-bar {
+    background-color: #4169E1; /* Azul para Intellect */
+}
+
+.attribute-list li:nth-child(2) .stat-bar {
+    background-color: #90EE90; /* Verde para Agility */
+}
+
+.attribute-list li:nth-child(3) .stat-bar {
+    background-color: #9370DB; /* Roxo para Charisma */
+}
+
+.attribute-list li:nth-child(4) .stat-bar {
+    background-color: #FF6B6B; /* Vermelho para Strength */
+}
+
+.attribute-list li:nth-child(5) .stat-bar {
+    background-color: #FFD700; /* Amarelo para Luck */
+}
+
+/* Ajuste no espaçamento dos itens da lista de atributos */
+.attribute-list li {
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+/* Container para o texto do atributo */
+.attribute-list li > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Estilo específico para os labels nos atributos */
+.attribute-list .label {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.8em;
+    color: #3f2832;
+    flex-shrink: 0;
+}
+
+/* Estilo para o valor numérico */
+.attribute-list li > div:first-child > span:last-child {
+    font-family: 'Neucha', cursive;
+    font-size: 1em;
+    color: #3f2832;
+    margin-left: 4px;
+}
+
+/* Ajuste específico para o container da região */
+.section:has(.region-list) {
+    min-height: 140px; /* Altura fixa para acomodar 3 itens */
+}
+
+.region-list {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100px; /* Altura para acomodar 3 itens */
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espaçamento consistente entre os itens */
+}
+
+.region-list li {
+    margin: 0;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    font-size: 1em;
+    white-space: normal;
+    overflow: visible;
+}
+
+/* Ajuste do título da seção de Regions */
+.section:has(.region-list) h3 {
+    margin-bottom: 8px; /* Espaçamento consistente após o título */
+}
+
+/* Estilo para o texto principal (região/valor) */
+.region-list li span:not(.label) {
+    overflow: visible;
+    text-overflow: clip;
+    padding: 0 4px;
+    flex: 1;
+}
+
+/* Estilo para a raridade entre parênteses */
+.region-list li strong,
+.characteristics-list li strong {
+    flex-shrink: 0;
+    font-size: 0.9em;
+}
+
+/* Adicione um estilo específico para o container do Total Stats */
+.total-stats {
+    margin: 8px 0;
+    color: #3f2832;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9em;
+    padding: 5px;
+    background-color: rgba(201, 167, 125, 0.3);
+    border: 2px solid #3f2832;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para o valor do Total Stats e Favor */
+.total-stats span:not(.label) {
+    font-family: 'Neucha', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3f2832;
+}
+
+/* Estilo para o label do Total Stats e Favor */
+.total-stats .label {
+    color: #3f2832;
+}
+
+/* Estilo para o badge de raridade */
+.rarity-badge {
+    background-color: #3f2832;
+    color: #ffd4a3;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: 'Neucha', cursive;
+    margin-left: 4px;
+    min-width: 35px; /* Largura mínima para acomodar "100%" */
+    max-width: 35px; /* Largura máxima para manter consistência */
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* Ajuste para os itens da lista */
+.region-list li,
+.characteristics-list li {
+    margin: 5px 0;
+    color: #3f2832;
+    font-family: 'Neucha', cursive;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1em;
+    white-space: nowrap;
+}
+
+/* Estilo para os grupos de características */
+.char-group {
+    border: 2px solid #3f2832;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/* Grupo de espécies */
+.species-group {
+    background-color: rgba(201, 167, 125, 0.3); /* Cor mais clara */
+    margin-bottom: 12px;
+}
+
+/* Grupo de traits */
+.traits-group {
+    background-color: rgba(201, 167, 125, 0.2);
+    margin-bottom: 12px;
+}
+
+/* Grupo de cosméticos */
+.cosmetics-group {
+    background-color: rgba(201, 167, 125, 0.1);
+}
+
+/* Ajuste para os itens dentro dos grupos */
+.char-group li:first-child {
+    margin-top: 0;
+}
+
+.char-group li:last-child {
+    margin-bottom: 0;
+}
+
+
+.error-message {
+    color: #995750;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+    background-color: #ffd4a3;
+    border: 2px solid #3f2832;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Estilo para o Total BitMates após a busca */
+#result > h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #3f2832;
+    background-color: #ffd4a3;
+    border: 2px solid #3f2832;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 20px auto;
+    font-size: 1em;
+    box-shadow: 0 2px 4px rgba(63, 40, 50, 0.2);
+}
+
+/* Estilo para os botões de ordenação */
+#sortingButtons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.sort-button {
+    padding: 8px 15px;
+    background-color: #C9A77D;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    color: #3f2832;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sort-button:hover {
+    background-color: #ffd4a3;
+    transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+    #sortingButtons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sort-button {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/* Ajustes de responsividade */
+@media screen and (max-width: 1200px) {
+  .nft-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #searchValue {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .nft-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .nft-card {
+    padding: 8px;
+  }
+
+  .nft-card img {
+    max-width: 160px;
+  }
+
+  .section {
+    padding: 6px;
+  }
+
+  .total-stats {
+    font-size: 0.8em;
+  }
+
+  #result > h2 {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+
+  .sort-button {
+    font-size: 0.7em;
+    padding: 6px 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  .nft-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .nft-card {
+    max-width: 100%;
+  }
+
+  .section h3 {
+    font-size: 0.8em;
+  }
+
+  .attribute-list li, 
+  .characteristics-list li, 
+  .region-list li {
+    font-size: 0.9em;
+  }
+
+  .rarity-badge {
+    font-size: 0.8em;
+    padding: 1px 4px;
+  }
+
+  .stat-bar-container {
+    height: 6px;
+  }
+
+  .char-group {
+    padding: 4px;
+    margin-bottom: 4px;
+  }
+}
+
+/* Ajustes para telas muito pequenas */
+@media screen and (max-width: 320px) {
+  .nft-card img {
+    max-width: 140px;
+  }
+
+  .section {
+    margin-bottom: 8px;
+  }
+
+  .total-stats {
+    font-size: 0.75em;
+  }
+
+  .attribute-list .label,
+  .characteristics-list .label,
+  .region-list .label {
+    font-size: 0.7em;
+  }
+}
+
+/* Ajustes para telas grandes */
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+  .nft-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+
+  .nft-card img {
+    max-width: 200px;
+  }
+}
+
+/* Ajustes para orientação paisagem em dispositivos móveis */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .nft-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .nft-card {
+    padding: 5px;
+  }
+
+  .nft-card img {
+    max-width: 120px;
+  }
+
+  .section {
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+}
+
+/* Ajuste geral para evitar scroll horizontal */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* Ajuste do container principal */
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px 0; /* Remove padding lateral */
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    /* Ajuste para o campo de busca e botão */
+    #searchValue, 
+    button,
+    .sort-button {
+        width: calc(100% - 20px); /* Largura total menos um pequeno padding */
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    /* Ajuste para o grid de NFTs */
+    .nft-grid {
+        padding: 10px 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Ajuste para os cards */
+    .nft-card {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    /* Ajuste para mensagens de erro */
+    .error-message {
+        width: calc(100% - 20px);
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    /* Ajuste para o título Total BitMates */
+    #result > h2 {
+        width: calc(100% - 20px);
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    /* Ajuste para os botões de ordenação */
+    #sortingButtons {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 5px 0;
+    }
+
+    .container {
+        padding: 2px;
+    }
+
+    #searchValue, 
+    button,
+    .sort-button {
+        width: calc(100% - 10px);
+    }
+
+    .nft-grid {
+        padding: 5px 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div:has(#searchValue) {
+        padding: 0 5px;
+    }
+
+    #searchValue {
+        font-size: 0.7em; /* Reduz um pouco o tamanho da fonte no mobile */
+        padding: 8px;
+        max-width: calc(100% - 10px);
+        /* Mantém todos os outros estilos */
+        border: 2px solid #3f2832;
+        border-radius: 5px;
+        background-color: #ffd4a3;
+        font-family: 'Press Start 2P', system-ui;
+    }
+
+    button {
+        max-width: calc(100% - 10px);
+        margin: 5px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div:has(#searchValue) {
+        padding: 0 2px;
+    }
+
+    #searchValue {
+        padding: 6px;
+        /* Mantém todos os outros estilos */
+        border: 2px solid #3f2832;
+        border-radius: 5px;
+        background-color: #ffd4a3;
+        font-family: 'Press Start 2P', system-ui;
+        font-size: 0.7em;
+    }
+}
+
+/* Ajuste para manter o estilo no autopreenchimento */
+#searchValue:-webkit-autofill,
+#searchValue:-webkit-autofill:hover,
+#searchValue:-webkit-autofill:focus,
+#searchValue:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #ffd4a3 inset !important;
+    -webkit-text-fill-color: #3f2832 !important;
+    transition: background-color 5000s ease-in-out 0s;
+    font-family: 'Press Start 2P', system-ui !important;
+}
+
+/* Para Firefox */
+#searchValue:autofill {
+    background-color: #ffd4a3 !important;
+    color: #3f2832 !important;
+    font-family: 'Press Start 2P', system-ui !important;
+}
+
+/* Estilos para o sistema de comparação */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(201, 167, 125, 0.3);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.compare-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.7em;
+    color: #3f2832;
+    cursor: pointer;
+}
+
+.compare-checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: #3f2832;
+}
+
+.compare-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.compare-button {
+    background-color: #C9A77D;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+    cursor: pointer;
+    color: #3f2832;
+    transition: background-color 0.3s;
+}
+
+.compare-button:hover {
+    background-color: #ffd4a3;
+}
+
+/* Container principal de comparação */
+.comparison-result {
+    background-color: #ffd4a3;
+    border: 2px solid #3f2832;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grid de comparação */
+.comparison-grid {
+    display: grid;
+    grid-template-columns: minmax(250px, 1fr) auto minmax(250px, 1fr);
+    gap: 20px;
+    align-items: start;
+}
+
+/* Ajustes responsivos */
+@media screen and (max-width: 768px) {
+    .compare-label {
+        font-size: 0.6em;
+    }
+
+    .compare-checkbox {
+        width: 14px;
+        height: 14px;
+    }
+
+    .compare-button {
+        width: calc(100% - 20px);
+        font-size: 0.7em;
+        padding: 6px 12px;
+    }
+
+    .comparison-result {
+        padding: 20px;
+        width: 98%;
+    }
+
+    .comparison-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Estilos para a comparação detalhada */
+.comparison-details {
+    background-color: #C9A77D;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    padding: 15px;
+    align-self: start;
+    flex-shrink: 0;
+}
+
+.diff-section {
+    background-color: #995750;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.diff-section h5 {
+    font-family: 'Press Start 2P', system-ui;
+    color: #ffd4a3;
+    font-size: 0.8em;
+    margin: 0 0 8px 0;
+}
+
+.diff-row {
+    background-color: #C9A77D;
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin: 4px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.diff-row .label {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.75em;
+    color: #3f2832;
+}
+
+.diff-row .value,
+.diff-row .diff-value {
+    font-family: 'Neucha', cursive;
+    font-size: 0.95em;
+    color: #3f2832;
+}
+
+.diff-row.total {
+    background-color: rgba(201, 167, 125, 0.5);
+    border: 2px solid #3f2832;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .comparison-details h4 {
+        font-size: 0.8em;
+    }
+
+    .diff-section h5 {
+        font-size: 0.7em;
+    }
+
+    .diff-row .label {
+        font-size: 0.7em;
+    }
+
+    .diff-row .value,
+    .diff-row .diff-value {
+        font-size: 0.9em;
+    }
+}
+
+/* Ajustes responsivos */
+@media screen and (max-width: 1024px) {
+    .comparison-grid {
+        grid-template-columns: 1fr 200px 1fr;
+        gap: 10px;
+    }
+
+    .comparison-card {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .comparison-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .comparison-details {
+        order: 3;
+    }
+
+    .comparison-card img {
+        max-width: 140px;
+    }
+}
+
+/* Ajuste para centralizar as imagens na comparação */
+.comparison-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.comparison-card .stats-section,
+.comparison-card .regions-section,
+.comparison-card .favor-section {
+    width: 100%;
+}
+
+/* Ajuste para as imagens na comparação */
+.comparison-card img {
+    max-width: 180px;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-image: url('https://bitmates.io/assets/PhotographC-DkKo2ezD.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+/* Mantém o ajuste responsivo */
+@media screen and (max-width: 768px) {
+    .comparison-card img {
+        max-width: 140px;
+        background-image: url('https://bitmates.io/assets/PhotographC-DkKo2ezD.png');
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+    }
+}
+
+.comparison-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .comparison-buttons {
+        margin-top: 25px;
+        padding-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comparison-buttons .compare-button {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/* Estilos para os cards na comparação */
+.comparison-card {
+    background-color: #ffd4a3;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 0;
+}
+
+.comparison-card .favor-section,
+.comparison-card .stats-section,
+.comparison-card .regions-section {
+    width: 100%;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.comparison-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* Seções dentro do card de comparação */
+.comparison-card .stats-section,
+.comparison-card .regions-section {
+    background-color: #995750;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.comparison-card h4 {
+    font-family: 'Press Start 2P', system-ui;
+    color: #ffd4a3;
+    font-size: 0.9em;
+    margin: 0 0 8px 0;
+}
+
+/* Container para stats e regiões */
+.stat-row, 
+.region-row {
+    background-color: #C9A77D;
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin: 4px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Neucha', cursive;
+    font-size: 0.95em;
+}
+
+.stat-row .label,
+.region-row .label {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.75em;
+    color: #3f2832;
+}
+
+.stat-row .value,
+.region-row .value,
+.region-row .rarity {
+    color: #3f2832;
+}
+
+/* Total stats com destaque */
+.stat-row.total {
+    background-color: rgba(201, 167, 125, 0.5);
+    border: 2px solid #3f2832;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* Ajustes responsivos */
+@media screen and (max-width: 768px) {
+    .comparison-card {
+        padding: 10px;
+    }
+
+    .comparison-card .stats-section,
+    .comparison-card .regions-section {
+        padding: 6px;
+    }
+
+    .stat-row, 
+    .region-row {
+        padding: 4px 6px;
+        font-size: 0.9em;
+    }
+
+    .stat-row .label,
+    .region-row .label {
+        font-size: 0.7em;
+    }
+}
+
+/* Estilos para as barras de stats na comparação */
+.comparison-card .stat-row {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.comparison-card .stat-row > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.comparison-card .stat-bar-container {
+    width: 100%;
+    height: 8px;
+    background-color: #3f2832;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.comparison-card .stat-bar {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+/* Cores diferentes para cada stat na comparação */
+.comparison-card .stat-row:nth-of-type(1) .stat-bar {
+    background-color: #4169E1; /* Azul para Intellect */
+}
+
+.comparison-card .stat-row:nth-of-type(2) .stat-bar {
+    background-color: #90EE90; /* Verde para Agility */
+}
+
+.comparison-card .stat-row:nth-of-type(3) .stat-bar {
+    background-color: #9370DB; /* Roxo para Charisma */
+}
+
+.comparison-card .stat-row:nth-of-type(4) .stat-bar {
+    background-color: #FF6B6B; /* Vermelho para Strength */
+}
+
+.comparison-card .stat-row:nth-of-type(5) .stat-bar {
+    background-color: #FFD700; /* Amarelo para Luck */
+}
+
+/* Estilo para a seção de Favor na comparação */
+.comparison-card .favor-section {
+    background-color: #995750;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.comparison-card .favor-row {
+    background-color: #C9A77D;
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin: 4px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Neucha', cursive;
+    font-size: 0.95em;
+}
+
+.comparison-card .favor-row .label {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.75em;
+    color: #3f2832;
+}
+
+.comparison-card .favor-row .value {
+    color: #3f2832;
+}
+
+@media screen and (max-width: 768px) {
+    .comparison-card .favor-section {
+        padding: 6px;
+    }
+
+    .comparison-card .favor-row {
+        padding: 4px 6px;
+        font-size: 0.9em;
+    }
+
+    .comparison-card .favor-row .label {
+        font-size: 0.7em;
+    }
+}
+
+/* Estilo para o indicador de BitMate principal */
+.main-indicator {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.7em;
+    color: #ffd4a3;
+    background-color: #006400;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #3f2832;
+    display: inline-block;
+    margin: 5px 0 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .main-indicator {
+        font-size: 0.6em;
+        padding: 3px 6px;
+        margin: 4px 0 8px 0;
+    }
+}
+
+/* Cores para os itens de comparação better/worse */
+.diff-row.better {
+    background-color: rgba(144, 238, 144, 0.3);
+    border: 1px solid #006400;
+}
+
+.diff-row.better .label,
+.diff-row.better .value,
+.diff-row.better .diff-value {
+    color: #006400;
+}
+
+.diff-row.worse {
+    background-color: rgba(255, 99, 71, 0.3);
+    border: 1px solid #8B0000;
+}
+
+.diff-row.worse .label,
+.diff-row.worse .value,
+.diff-row.worse .diff-value {
+    color: #8B0000;
+}
+
+/* Mantém o estilo total mesmo quando better/worse */
+.diff-row.total.better,
+.diff-row.total.worse {
+    background-color: rgba(201, 167, 125, 0.5);
+    border: 2px solid #3f2832;
+}
+
+/* Ajuste para o título Differences */
+.comparison-details h4 {
+    font-family: 'Press Start 2P', system-ui;
+    color: #3f2832;
+    font-size: 0.9em;
+    margin: 0 0 10px 0;
+}
+
+/* Ajuste para o Total Stats na comparação */
+.comparison-card .stat-row.total {
+    flex-direction: row !important;
+    align-items: center !important;
+}
+
+.comparison-card .stat-row.total > div:first-child {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+/* Mantém o layout responsivo existente */
+@media screen and (max-width: 768px) {
+    .comparison-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .comparison-card {
+        height: auto;
+    }
+
+    .comparison-card .regions-section {
+        flex: none;
+    }
+}
+
+/* Estilo para o botão de voltar ao topo */
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #C9A77D;
+    border: 2px solid #3f2832;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: opacity 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #ffd4a3;
+}
