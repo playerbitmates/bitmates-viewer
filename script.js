@@ -124,6 +124,16 @@ async function performSearch() {
 
     const nftGrid = resultDiv.querySelector('.nft-grid');
 
+    // Se temos mais de 1 NFT para mostrar, já exibe os botões de ordenação e filtros
+    if (nftsToDisplay.length > 1) {
+      sortingButtons.style.display = 'block';
+      // Inicializa os containers de filtro vazios
+      document.getElementById('traitOptions').innerHTML = '<div class="option-item">Loading filters...</div>';
+      document.getElementById('landOptions').innerHTML = '<div class="option-item">Loading filters...</div>';
+      // Marca o botão default como ativo
+      initDefaultSort();
+    }
+
     // Busca e exibe os NFTs
     for (const tokenId of nftsToDisplay) {
       try {
@@ -248,14 +258,10 @@ async function performSearch() {
       }
     }
 
-    // Mostrar botões de ordenação se houver mais de 1 card
+    // Após carregar todos os cards, atualiza os filtros
     if (nftsToDisplay.length > 1) {
-      sortingButtons.style.display = 'block';
-      // Popula o filtro de traits após renderizar todos os cards
       populateTraitFilter(document.querySelectorAll('.nft-card'));
       populateLandFilter(document.querySelectorAll('.nft-card'));
-      // Marca o botão default como ativo
-      initDefaultSort();
     }
   } catch (error) {
     resultDiv.innerHTML = `<p class="error">Erro ao buscar NFTs: ${error.message}</p>`;
