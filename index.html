@@ -143,6 +143,19 @@
     <button onclick="sortCards('default')" class="sort-button">Sort by default</button>
     <button onclick="sortCards('favor')" class="sort-button">Sort by Favor</button>
     <button onclick="sortCards('stats')" class="sort-button">Sort by Total Stats</button>
+    <button onclick="sortCards('species')" class="sort-button">Sort by Species</button>
+    <button onclick="sortCards('land')" class="sort-button">Sort by Land</button>
+    <div style="margin-top: 20px;">
+      <div class="custom-select-container">
+        <div class="custom-select" onclick="toggleDropdown(event)">
+          <span class="selected-text">Filter by Trait</span>
+          <div class="select-arrow">▼</div>
+        </div>
+        <div class="custom-options" id="traitOptions">
+          <!-- Options will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
   </div>
 
   <div id="compareContainer" style="display: none;" class="compare-container">
@@ -166,6 +179,11 @@
       selectedCards = [];
       const compareContainer = document.getElementById('compareContainer');
       const comparisonResult = document.getElementById('comparisonResult');
+      const compareButtons = compareContainer.children;
+      
+      // Restaura a visibilidade dos botões ao fazer nova pesquisa
+      compareButtons[0].style.display = 'block'; // Compare Selected BitMates
+      compareButtons[1].style.display = 'block'; // Clear Selection
       
       if (compareContainer) compareContainer.style.display = 'none';
       if (comparisonResult) comparisonResult.style.display = 'none';
@@ -237,17 +255,39 @@
         if (walletToSearch) {
           const apiKey = 'alcht_Da0G0kZ5pKqzCqSqNzmOvtJ60iXFKd';
           const contractAddress = '0xF8C18Df7509c03b45e6247b2b9E73fcaDEF24dd6';
-          const url = `https://eth-mainnet.g.alchemy.com/nft/v3/${apiKey}/getNFTsForOwner?owner=${walletToSearch}&withMetadata=true&pageSize=100&contractAddresses[]=${contractAddress}`;
+          let allNfts = [];
+          let pageKey = null;
+          
+          // Função para aguardar um tempo específico
+          const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+          
+          do {
+            const url = `https://eth-mainnet.g.alchemy.com/nft/v3/${apiKey}/getNFTsForOwner?owner=${walletToSearch}&withMetadata=true&pageSize=100&contractAddresses[]=${contractAddress}${pageKey ? `&pageKey=${pageKey}` : ''}`;
+            try {
+              const response = await fetch(url);
+              const data = await response.json();
+              
+              if (data.ownedNfts) {
+                allNfts = [...allNfts, ...data.ownedNfts];
+                pageKey = data.pageKey;
+              } else {
+                pageKey = null;
+              }
+              
+              // Aguarda 500ms entre as requisições
+              await delay(500);
+            } catch (error) {
+              console.error('Error fetching page:', error);
+              pageKey = null;
+            }
+          } while (pageKey);
 
-          const response = await fetch(url);
-          const data = await response.json();
-
-          if (data.ownedNfts.length === 0) {
+          if (allNfts.length === 0) {
             resultDiv.innerHTML = '<p class="error-message">This wallet does not have BitMates.</p>';
             return;
           }
 
-          nftsToDisplay = data.ownedNfts.map(nft => nft.tokenId);
+          nftsToDisplay = allNfts.map(nft => nft.tokenId);
           resultDiv.innerHTML = `
             ${nftsToDisplay.length > 0 ? `<h2>Total BitMates: ${nftsToDisplay.length}</h2>` : ''}
             <div class="nft-grid"></div>
@@ -383,6 +423,8 @@
         // Mostrar botões de ordenação se houver mais de 1 card
         if (nftsToDisplay.length > 1) {
           sortingButtons.style.display = 'block';
+          // Popula o filtro de traits após renderizar todos os cards
+          populateTraitFilter(document.querySelectorAll('.nft-card'));
         }
       } catch (error) {
         resultDiv.innerHTML = `<p class="error">Erro ao buscar NFTs: ${error.message}</p>`;
@@ -412,6 +454,65 @@
           const statsA = parseInt(a.querySelector('.stats-total span:not(.label)').textContent) || 0;
           const statsB = parseInt(b.querySelector('.stats-total span:not(.label)').textContent) || 0;
           return statsB - statsA;
+        }
+        else if (sortType === 'species') {
+          // Pega o elemento da espécie e sua raridade
+          const getSpeciesRarity = (card) => {
+            const speciesGroup = card.querySelector('.species-group');
+            const rarityBadge = speciesGroup?.querySelector('.rarity-badge');
+            if (rarityBadge) {
+              // Remove o símbolo % e substitui vírgula por ponto
+              const rarityText = rarityBadge.textContent
+                .replace('%', '')
+                .replace(',', '.');
+              return parseFloat(rarityText) || 100;
+            }
+            return 100; // Valor padrão caso não encontre raridade
+          };
+          
+          const rarityA = getSpeciesRarity(a);
+          const rarityB = getSpeciesRarity(b);
+          return rarityA - rarityB; // Ordem crescente (menor raridade primeiro)
+        }
+        else if (sortType === 'land') {
+          // Função para pegar a raridade mais relevante do card
+          const getLandRarity = (card) => {
+            const regions = card.querySelectorAll('.region-list li');
+            let bestRarity = 100;
+            let hasSubRegion = false;
+            
+            regions.forEach(region => {
+              const label = region.querySelector('.label').textContent;
+              const rarity = parseFloat(region.querySelector('.rarity-badge').textContent.replace('%', '').replace(',', '.')) || 100;
+              
+              // Se tem Sub-Region, considera apenas ela
+              if (label.includes('Sub-Region')) {
+                hasSubRegion = true;
+                bestRarity = rarity;
+              }
+              // Se não tem Sub mas tem Secondary, considera ela
+              else if (!hasSubRegion && label.includes('Secondary-Region')) {
+                bestRarity = rarity;
+              }
+              // Se só tem Region e ainda não achou melhor, usa ela
+              else if (!hasSubRegion && label.includes('Region:')) {
+                bestRarity = rarity;
+              }
+            });
+            
+            // Adiciona peso para priorizar BitMates com Sub-Region
+            if (hasSubRegion) {
+              return bestRarity;
+            } else if (regions.length > 1) {
+              return bestRarity + 100; // Secondary-Region
+            } else {
+              return bestRarity + 200; // Só Region
+            }
+          };
+          
+          const rarityA = getLandRarity(a);
+          const rarityB = getLandRarity(b);
+          return rarityA - rarityB;
         }
         else {
           // Ordem padrão - usa a ordem original se existir, senão ordena por ID
@@ -463,6 +564,11 @@
       // Esconde os elementos de comparação
       const compareContainer = document.getElementById('compareContainer');
       const comparisonResult = document.getElementById('comparisonResult');
+      const compareButtons = compareContainer.children;
+      
+      // Restaura a visibilidade dos botões
+      compareButtons[0].style.display = 'block'; // Compare Selected BitMates
+      compareButtons[1].style.display = 'block'; // Clear Selection
       
       if (compareContainer) compareContainer.style.display = 'none';
       if (comparisonResult) comparisonResult.style.display = 'none';
@@ -491,6 +597,11 @@
       document.querySelector('.nft-grid').style.display = 'none';
       document.querySelector('#result > h2').style.display = 'none';
       document.getElementById('sortingButtons').style.display = 'none';
+      
+      // Esconde apenas o botão de Compare Selected BitMates
+      const compareButtons = document.getElementById('compareContainer').children;
+      compareButtons[0].style.display = 'none'; // Compare Selected BitMates
+      compareButtons[1].style.display = 'block'; // Clear Selection
 
       const comparisonResult = document.getElementById('comparisonResult');
       
@@ -725,6 +836,133 @@
     // Adicione os event listeners
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleScroll);
+
+    // Adicione esta função após carregar os NFTs
+    function populateTraitFilter(nfts) {
+        const optionsContainer = document.getElementById('traitOptions');
+        if (!optionsContainer) return;
+
+        const traitsByCategory = {};
+        
+        // Coleta todas as traits dos NFTs carregados
+        nfts.forEach(card => {
+            // Pega todos os grupos de características
+            const charGroups = card.querySelectorAll('.char-group');
+            if (!charGroups.length) return;
+
+            charGroups.forEach(group => {
+                group.querySelectorAll('li').forEach(trait => {
+                    const [category, value] = trait.textContent.split(':').map(s => s.trim());
+                    if (!traitsByCategory[category]) {
+                        traitsByCategory[category] = new Set();
+                    }
+                    traitsByCategory[category].add(value);
+                });
+            });
+        });
+
+        // Limpa o container
+        optionsContainer.innerHTML = '';
+        
+        // Adiciona opção "All"
+        const allOption = document.createElement('div');
+        allOption.className = 'option-item';
+        allOption.textContent = 'Show All';
+        allOption.onclick = () => {
+            filterByTrait('');
+            document.querySelector('.selected-text').textContent = 'Filter by Trait';
+            toggleDropdown({ currentTarget: document.querySelector('.custom-select') });
+        };
+        optionsContainer.appendChild(allOption);
+
+        // Popula as opções
+        Object.entries(traitsByCategory)
+            .sort(([catA, _], [catB, __]) => {
+                // Define a ordem específica das categorias
+                const lastCategories = ['Brain Type', 'Tempo', 'Charm', 'Physique', 'Fortune'];
+                
+                // Species sempre primeiro
+                if (catA === 'Species') return -1;
+                if (catB === 'Species') return 1;
+                
+                // Categorias específicas sempre por último
+                const isLastA = lastCategories.includes(catA);
+                const isLastB = lastCategories.includes(catB);
+                
+                if (isLastA && !isLastB) return 1;
+                if (!isLastA && isLastB) return -1;
+                if (isLastA && isLastB) {
+                    return lastCategories.indexOf(catA) - lastCategories.indexOf(catB);
+                }
+                
+                // Ordem alfabética para as demais categorias
+                return catA.localeCompare(catB);
+            })
+            .forEach(([category, traits]) => {
+                if (traits.size > 0) {
+                    const groupDiv = document.createElement('div');
+                    groupDiv.className = 'option-group';
+                    
+                    const labelDiv = document.createElement('div');
+                    labelDiv.className = 'option-group-label';
+                    labelDiv.textContent = category;
+                    groupDiv.appendChild(labelDiv);
+                    
+                    [...traits].sort().forEach(trait => {
+                        const optionDiv = document.createElement('div');
+                        optionDiv.className = 'option-item';
+                        optionDiv.textContent = trait;
+                        optionDiv.onclick = () => {
+                            filterByTrait(`${category}:${trait}`);
+                            document.querySelector('.selected-text').textContent = trait;
+                            toggleDropdown({ currentTarget: document.querySelector('.custom-select') });
+                        };
+                        groupDiv.appendChild(optionDiv);
+                    });
+                    
+                    optionsContainer.appendChild(groupDiv);
+                }
+            });
+    }
+
+    // Função para filtrar por trait
+    function filterByTrait(value) {
+        const cards = document.querySelectorAll('.nft-card');
+        if (!value) {
+            cards.forEach(card => card.style.display = '');
+            return;
+        }
+
+        const [category, trait] = value.split(':');
+        
+        cards.forEach(card => {
+            const hasTrait = Array.from(card.querySelectorAll('.char-group li'))
+                .some(li => {
+                    const [itemCategory, itemValue] = li.textContent.split(':').map(s => s.trim());
+                    return itemCategory === category && itemValue === trait;
+                });
+            card.style.display = hasTrait ? '' : 'none';
+        });
+    }
+
+    // Fechar dropdown quando clicar fora
+    document.addEventListener('click', (event) => {
+        const container = document.querySelector('.custom-select-container');
+        const options = document.getElementById('traitOptions');
+        if (!container.contains(event.target)) {
+            options.style.display = 'none';
+            document.querySelector('.select-arrow').style.transform = 'rotate(0deg)';
+        }
+    });
+
+    function toggleDropdown(event) {
+        const options = document.getElementById('traitOptions');
+        const arrow = event.currentTarget.querySelector('.select-arrow');
+        const isOpen = options.style.display === 'block';
+        
+        options.style.display = isOpen ? 'none' : 'block';
+        arrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
+    }
   </script>
 </body>
 </html>

@@ -1352,3 +1352,195 @@ html, body {
 .back-to-top:hover {
     background-color: #ffd4a3;
 }
+
+/* Ajuste específico para The Frigid Frontier */
+.region-list li:has(.value:contains('The Frigid Frontier')) {
+    font-size: 0.9em; /* Reduz um pouco o tamanho da fonte */
+    word-break: break-word; /* Permite quebra de palavra */
+    max-width: 100%; /* Garante que não ultrapasse o container */
+}
+
+/* Fallback para navegadores que não suportam :has */
+.region-list li .value[title='The Frigid Frontier'] {
+    font-size: 0.9em;
+    word-break: break-word;
+    max-width: 100%;
+}
+
+/* Estilo para o container do filtro */
+.filter-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para o dropdown */
+#traitFilter {
+    width: 300px;
+    padding: 12px 20px;
+    background-color: #C9A77D;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+    color: #3f2832;
+    cursor: pointer;
+    appearance: none; /* Remove estilo padrão do navegador */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%233f2832' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+/* Estilo para os grupos de opções */
+#traitFilter optgroup {
+    background-color: #995750;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.9em;
+    color: #ffd4a3;
+    padding: 10px;
+}
+
+/* Estilo para as opções */
+#traitFilter option {
+    background-color: #ffd4a3;
+    font-family: 'Neucha', cursive;
+    font-size: 1.1em;
+    padding: 12px;
+    color: #3f2832;
+}
+
+/* Hover states */
+#traitFilter option:hover,
+#traitFilter option:focus {
+    background-color: #C9A77D;
+}
+
+#traitFilter:hover {
+    background-color: #ffd4a3;
+}
+
+/* Estilo para quando o dropdown está aberto */
+#traitFilter:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3f2832;
+    background-color: #ffd4a3;
+}
+
+/* Ajustes para diferentes navegadores */
+@-moz-document url-prefix() {
+    #traitFilter {
+        color: #3f2832;
+        background-color: #C9A77D;
+    }
+    
+    #traitFilter option {
+        background-color: #ffd4a3;
+        color: #3f2832;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #traitFilter {
+        padding-right: 30px;
+    }
+}
+
+.custom-select-container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.custom-select {
+    background-color: #C9A77D;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-select:hover {
+    background-color: #ffd4a3;
+}
+
+.selected-text {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+    color: #3f2832;
+}
+
+.select-arrow {
+    color: #3f2832;
+    font-size: 0.8em;
+    transition: transform 0.3s;
+}
+
+.custom-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffd4a3;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    margin-top: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.option-group {
+    background-color: #995750;
+    padding: 8px;
+    margin-bottom: 4px;
+    border-bottom: 2px solid #3f2832;
+}
+
+.option-group:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.option-group-label {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+    color: #ffd4a3;
+    padding: 5px;
+}
+
+.option-item {
+    background-color: #ffd4a3;
+    padding: 8px 15px;
+    font-family: 'Neucha', cursive;
+    font-size: 1.1em;
+    color: #3f2832;
+    cursor: pointer;
+    border-bottom: 1px solid #3f2832;
+}
+
+.option-item:last-child {
+    border-bottom: none;
+}
+
+.option-item:hover {
+    background-color: #C9A77D;
+}
+
+/* Estilização da scrollbar */
+.custom-options::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-options::-webkit-scrollbar-track {
+    background: #ffd4a3;
+}
+
+.custom-options::-webkit-scrollbar-thumb {
+    background: #3f2832;
+    border-radius: 4px;
+}
