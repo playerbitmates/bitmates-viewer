@@ -855,12 +855,11 @@ html, body {
     border: 2px solid #3f2832;
     border-radius: 8px;
     padding: 40px;
-    margin: 20px auto;
+    margin: 60px auto 20px auto;
     max-width: 1200px;
     box-sizing: border-box;
     width: 95%;
-    display: flex;
-    flex-direction: column;
+    position: relative; /* Adicionado para garantir posicionamento consistente */
 }
 
 /* Grid de comparação */
@@ -869,27 +868,14 @@ html, body {
     grid-template-columns: minmax(250px, 1fr) auto minmax(250px, 1fr);
     gap: 20px;
     align-items: start;
+    position: relative; /* Adicionado para garantir posicionamento consistente */
 }
 
 /* Ajustes responsivos */
 @media screen and (max-width: 768px) {
-    .compare-label {
-        font-size: 0.6em;
-    }
-
-    .compare-checkbox {
-        width: 14px;
-        height: 14px;
-    }
-
-    .compare-button {
-        width: calc(100% - 20px);
-        font-size: 0.7em;
-        padding: 6px 12px;
-    }
-
     .comparison-result {
         padding: 20px;
+        margin: 40px auto 20px auto;
         width: 98%;
     }
 
