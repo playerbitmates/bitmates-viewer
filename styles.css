@@ -1449,10 +1449,16 @@ html, body {
 .custom-select-container {
     position: relative;
     width: 300px;
-    margin: 0 auto;
+}
+
+.select-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .custom-select {
+    flex: 1;
     background-color: #C9A77D;
     border: 2px solid #3f2832;
     border-radius: 5px;
@@ -1484,7 +1490,7 @@ html, body {
     position: absolute;
     top: 100%;
     left: 0;
-    right: 0;
+    width: 100%;
     background-color: #ffd4a3;
     border: 2px solid #3f2832;
     border-radius: 5px;
@@ -1492,6 +1498,7 @@ html, body {
     max-height: 300px;
     overflow-y: auto;
     z-index: 1000;
+    box-sizing: border-box;
 }
 
 .option-group {
@@ -1543,4 +1550,270 @@ html, body {
 .custom-options::-webkit-scrollbar-thumb {
     background: #3f2832;
     border-radius: 4px;
+}
+
+.filter-container-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 650px; /* Limita a largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+/* Ajuste o container do filtro existente */
+.custom-select-container {
+    position: relative;
+    width: 300px;
+    /* Remove margin: 0 auto pois agora o container pai controla o alinhamento */
+}
+
+/* Ajuste responsivo para telas menores */
+@media (max-width: 650px) {
+    .filter-container-group {
+        gap: 10px;
+    }
+    
+    .custom-select-container {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+.select-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.clear-filter {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: #995750;
+    color: #ffd4a3;
+    border: 2px solid #3f2832;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clear-filter:hover {
+    background-color: #3f2832;
+}
+
+/* Ajusta o container quando o botão X está visível */
+.select-wrapper:has(.clear-filter[style*="flex"]) + .custom-options {
+    width: calc(100% - 29px); /* 24px do botão + 5px do gap */
+}
+
+/* Estilo específico para o badge de raridade no dropdown */
+.dropdown-rarity-badge {
+    background-color: #3f2832;
+    color: #ffd4a3;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-family: 'Press Start 2P', system-ui;
+    margin-left: auto;
+    min-width: 45px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Ajuste do item do dropdown para acomodar o badge */
+.option-item {
+    background-color: #ffd4a3;
+    padding: 8px 15px;
+    font-family: 'Neucha', cursive;
+    font-size: 1.1em;
+    color: #3f2832;
+    cursor: pointer;
+    border-bottom: 1px solid #3f2832;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Oculta a porcentagem que aparece após o texto (mantém apenas o badge) */
+.option-item span:first-child::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    visibility: hidden;
+}
+
+/* Garante que o texto não quebre e não mostre a porcentagem */
+.option-item span:first-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 65px); /* Deixa espaço para o badge */
+}
+
+/* Estilo para botões de ordenação */
+.sort-button {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.sort-button.active {
+    background-color: #3f2832;
+    color: #ffd4a3;
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.sort-button.active:hover {
+    background-color: #3f2832;
+}
+
+
+
+/* ATENCAO */
+/* importados do index.html */
+/* ATENCAO */
+
+body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+img { max-width: 200px; }
+.error { color: red; }
+.container { margin-top: 20px; }
+.section { margin-bottom: 20px; }
+.section h3 { margin-bottom: 10px; }
+.attribute-list { padding-left: 20px; }
+.nft-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.nft-card { border: 1px solid #3f2832; padding: 15px; border-radius: 8px; }
+.attribute-list, .characteristics-list, .region-list { padding-left: 20px; }
+
+/* Estilo para os grupos de características */
+.char-group {
+    border: 2px solid #3f2832;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+/* Grupo de espécies */
+.species-group {
+    background-color: rgba(201, 167, 125, 0.3); /* Cor mais clara */
+    margin-bottom: 12px;
+}
+
+/* Grupo de traits */
+.traits-group {
+    background-color: rgba(201, 167, 125, 0.2);
+    margin-bottom: 12px;
+}
+
+/* Grupo de cosméticos */
+.cosmetics-group {
+    background-color: rgba(201, 167, 125, 0.1);
+}
+
+/* Ajuste para os itens dentro dos grupos */
+.char-group li:first-child {
+    margin-top: 0;
+}
+
+.char-group li:last-child {
+    margin-bottom: 0;
+}
+
+/* Estilos para o sistema de comparação */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.compare-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.compare-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.compare-button {
+    background-color: #C9A77D;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+
+
+
+
+.comparison-vs {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 1.5em;
+    color: #3f2832;
+}
+
+.comparison-card {
+    background-color: #C9A77D;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.comparison-card img {
+    max-width: 180px;
+    border: 2px solid #3f2832;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.stats-comparison {
+    margin-top: 10px;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 768px) {
+    .comparison-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .comparison-vs {
+        display: none;
+    }
+
+    .comparison-card img {
+        max-width: 150px;
+    }
+}
+
+/* Estilo para botões de ordenação */
+.sort-button {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.sort-button.active {
+    background-color: #3f2832;
+    color: #ffd4a3;
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.sort-button.active:hover {
+    background-color: #3f2832;
 }
